@@ -1,12 +1,24 @@
 body {
   background-color: #C5FFFD;
 }
+title {
+  text-align: center;
+  font-family: courier;
+  font-size: 500%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 80px
+  border: 8px solid #E0F2E9;
+}
 h1 {color: #000000;
 text-align: center;
   font-family: courier;
   font-size: 500%;
-    margin-top: 80px;
-  background-color: #;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 80px
   border: 8px solid #E0F2E9;
 }
 ul {list-style-type: none;
