@@ -19,7 +19,7 @@ p {color: #000000;
 text-align: left;
   font-family: courier;
 }
-ul {list-style-type: none;
+ul.nav {list-style-type: none;
 margin: 0px;
 padding: 2px;
 overflow: hidden;
@@ -28,7 +28,7 @@ position: fixed;
   width: 100%;
   top: 0;
 }
-li {
+li.nav {
   float: left;
 }
 li a {
