@@ -51,4 +51,6 @@ img {max-width: 40%;
   height: auto;
   border-radius: 8px;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
