@@ -13,14 +13,15 @@ text-align: center;
 }
 h2 {color: #000000;
   text-align: left;
-   font-family: courier;
+  font-family: courier;
+  font-weight: bold;
 }
 p {color: #000000;
 text-align: left;
   font-family: courier;
 }
 ul {list-style-type: none;
-margin: 2px;
+margin: 0px;
 padding: 2px;
 overflow: hidden;
 background-color: #a3d5d3;
