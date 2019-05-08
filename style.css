@@ -21,6 +21,7 @@ text-align: left;
 }
 ul.nav {list-style-type: none;
 margin: 0px;
+left: 0px;
 padding: 2px;
 overflow: hidden;
 background-color: #a3d5d3;
