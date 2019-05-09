@@ -51,9 +51,8 @@ li a {
 li a:hover {
   background-color:#E0F2E9;
 }
-img.gp-imgs {max-width: 40%;
+div.prt-gp-imgs {text-align: center;
+  max-width: 40%;
   height: auto;
   border-radius: 8px;
-}
-div.prt-imgs {text-align: center;
 }
