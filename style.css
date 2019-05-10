@@ -14,7 +14,7 @@ h2.abt {color: #000000;
   text-align: left;
   font-family: courier;
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 140px;
 }
 h2.portfolio {color: #000000;
   text-align: center;
@@ -23,8 +23,8 @@ h2.portfolio {color: #000000;
 p {color: #000000;
 text-align: left;
   font-family: courier;
-  margin-left: 60px;
-  margin-right: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
 }
 ul.nav {list-style-type: none;
 margin: 0px;
