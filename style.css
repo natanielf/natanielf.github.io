@@ -51,15 +51,20 @@ li a {
 li a:hover {
   background-color:#E0F2E9;
 }
-img.gp-imgs { max-width: 40%;
+img.gp-imgs {max-width: 40%;
   height: auto;
   border-radius: 8px;
 }
 div.prt-gp-imgs {text-align: center;
 }
-img.iphone-imgs { max-width: 80%;
+img.iphone-imgs {max-width: 80%;
   height: auto;
   border-radius: 8px;
 }
 div.prt-iphone-imgs {text-align: center;
+}
+img.toc-logo {max-width: 100%;
+  height: auto;
+}
+div.toc-designs {text-align: center;
 }
