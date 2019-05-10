@@ -51,6 +51,13 @@ li a {
 li a:hover {
   background-color:#E0F2E9;
 }
+img.index-imgs {display: block;
+  left: auto;
+  right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px
+}
 img.gp-imgs {max-width: 40%;
   height: auto;
   border-radius: 8px;
