@@ -25,12 +25,14 @@ h2.contact {color: #000000;
   font-family: courier;
 }
 h2.contact-link {color: #000000;
+  text-align: center;
   text-decoration: none;
   font-family: courier;
   padding: 16px 22px;
-  border: 2px #1c1a1a
+  border: 2px a3d5d3;
 }
-h2 a:hover {background-color: #1c1a1a;
+h2 a:hover, h2 a:active {background-color: #a3d5d3;
+  color: #000000;
 }
 p {color: #000000;
 text-align: left;
