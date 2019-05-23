@@ -29,9 +29,9 @@ h2.contact-link {color: #000000;
   text-decoration: none;
   font-family: courier;
   padding: 16px 22px;
-  border: 2px a3d5d3;
+  border: 2px #E0F2E9;
 }
-h2 a:hover, h2 a:active {background-color: #a3d5d3;
+h2 a:hover, h2 a:active {background-color: #E0F2E9;
   color: #000000;
 }
 p {color: #000000;
