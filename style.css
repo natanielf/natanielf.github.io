@@ -28,8 +28,8 @@ h2.contact-link {color: #000000;
   text-align: center;
   text-decoration: none;
   font-family: courier;
-  padding: 16px 22px;
-  border: 2px #E0F2E9;
+  margin-top: 20px;
+  margin: 0
 }
 h2 a:hover, h2 a:active, h2 a:visited {background-color: #E0F2E9;
   color: #000000;
@@ -88,4 +88,35 @@ img.toc-logo {max-width: 100%;
   height: auto;
 }
 div.toc-designs {text-align: center;
+}
+.tooltip {
+  position: relative;
+  display: block; 
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #E0F2E9;
+  color: #000000;
+  font-family: courier;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip .tooltiptext::after {
+ content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-style: solid;
+  border-color: transparent transparent #E0F2E9 transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible
 }
