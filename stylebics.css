@@ -1,21 +1,24 @@
-body { background-color: #a3d5d3;
+body {
+  background-color: #a3d5d3;
 }
 
-h1 { color: #FFFFFF;
+h1 {
+  color: #FFFFFF;
   text-align: center;
   font-family: courier;
   font-style: italic;
   margin-top: 80px;
 }
-ul {list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color:#f79bba;
-position: fixed;
-width: 100%;
-top: 0;
-left: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#f79bba;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 li {
   float: left;
