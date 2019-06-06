@@ -9,7 +9,7 @@ text-align: center;
   margin-right: 80px;
   margin-left: 80px;
   font-weight: bold;
-animation-name: heading-animation;
+  animation-name: heading-animation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
