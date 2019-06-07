@@ -131,5 +131,8 @@ div.toc-designs {text-align: center;
   border-color: transparent transparent #E0F2E9 transparent;
 }
 .tooltip:hover .tooltiptext {
-  visibility: visible
+  visibility: visible;
+}
+div.yt-video {
+  text-align: center;
 }
