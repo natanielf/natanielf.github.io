@@ -1,7 +1,16 @@
 body {
-  background-color: #a3d5d3;
+ background-color: #a3d5d3;
+ animation-name: background;
+ animation-duration: 8s;
+ animation-delay: 0s;
+ animation-iteration-count: infinite;
 }
-
+@keyframes background {
+  0% {background-color: #a3d5d3;}
+  33% {background-color: #f79bba;}
+  66% {background-color:#d0ff84;}
+  100% {background-color: #a3d5d3;}
+}
 h1 {
   color: #FFFFFF;
   text-align: center;
