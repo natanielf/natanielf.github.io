@@ -12,7 +12,7 @@ body {
   100% {background-color: #a3d5d3;}
 }
 h1 {
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   font-family: courier;
   font-style: italic;
@@ -52,7 +52,7 @@ img {
  max-width: 600px;
  height: auto;
  animation-name: logo;
- animation-duration: 6s;
+ animation-duration: 10s;
  animation-delay: 2s;
  animation-iteration-count: infinite;
 }
