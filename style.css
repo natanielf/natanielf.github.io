@@ -11,7 +11,7 @@ text-align: center;
   font-weight: bold;
   animation-name: heading-animation;
   animation-duration: 4s;
-  animation-delay: 2s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
 }
 h2.abt {color: #000000;
