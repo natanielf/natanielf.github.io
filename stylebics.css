@@ -42,4 +42,13 @@ img {
  margin-right: auto;
  max-width: 600px;
  height: auto;
+ animation-name: logo;
+ animation-duration: 4s;
+ animation-delay: 0s;
+ animation-iteration-count: infinite;
+}
+@keyframes logo {
+  0%   {max-width: 600px; height: auto;}
+  50%  {max-width: 700px; height: auto;}
+  100% {max-width: 600px; height: auto;}
 }
