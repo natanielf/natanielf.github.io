@@ -11,7 +11,7 @@ text-align: center;
   font-weight: bold;
   animation-name: heading-animation;
   animation-duration: 4s;
-  animation-delay: 0s;
+  animation-delay: 0.5s;
   animation-iteration-count: infinite;
 }
 @keyframes heading-animation {
