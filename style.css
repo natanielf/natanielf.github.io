@@ -15,11 +15,11 @@ text-align: center;
   animation-iteration-count: infinite;
 }
 @keyframes heading-animation {
-  0%   {background-color:#C5FFFD; margin-left: 10.4%; margin-right: 10.4%; margin-top: 4.2%;}
-  25%  {background-color:#E0F2E9; margin-left: 5.2%; margin-right: 10.4%; margin-top: 4.2%;}
-  50%  {background-color:#E0F2E9; margin-left: 10.4%; margin-right: 5.2%; margin-top: 4.2%;}
-  75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%; margin-top: 4.2%;}
-  100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%; margin-top: 4.2%;}
+  0%   {background-color:#C5FFFD; margin-left: 10.4%; margin-right: 10.4%; margin-top: 7.4%;}
+  25%  {background-color:#E0F2E9; margin-left: 5.2%; margin-right: 10.4%; margin-top: 7.4%;}
+  50%  {background-color:#E0F2E9; margin-left: 10.4%; margin-right: 5.2%; margin-top: 7.4%;}
+  75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%; margin-top: 7.4%;}
+  100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%; margin-top: 7.4%;}
 }
 h2.abt {color: #000000;
   text-align: left;
