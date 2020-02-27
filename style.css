@@ -76,6 +76,11 @@ li a {
   padding: 18px 22px;
   text-decoration: none
 }
+@media only screen and (max-width: 800px) {
+  [class*="nav"] {
+    font-size: 80%;
+  }
+}
 li a:hover {
   background-color:#E0F2E9;
 }
