@@ -91,6 +91,12 @@ img.index-imgs {display: block;
   height: auto;
   border-radius: 8px
 }
+img.gd-imgs {max-height: 100%;
+  width: auto;
+  border-radius: 8px;
+}
+div.prt-gd-imgs {text-align: center;
+}
 img.gp-imgs {max-width: 40%;
   height: auto;
   border-radius: 8px;
