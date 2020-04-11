@@ -97,6 +97,12 @@ img.gd-imgs {max-width: 40%;
 }
 div.prt-gd-imgs {text-align: center;
 }
+img.cis-collage {max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+div.cis-collage {text-align: center;
+}
 img.gp-imgs {max-width: 40%;
   height: auto;
   border-radius: 8px;
@@ -116,7 +122,7 @@ div.toc-designs {text-align: center;
 }
 .tooltip {
   position: relative;
-  display: block; 
+  display: block;
 }
 .tooltip .tooltiptext {
   visibility: hidden;
