@@ -21,6 +21,10 @@ text-align: center;
   75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%; margin-top: 80px;}
   100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%; margin-top: 80px;}
 }
+h2 {color: #000000;
+text-align: center;
+  font-family: courier;
+}
 h2.abt {color: #000000;
   text-align: left;
   font-family: courier;
@@ -153,8 +157,6 @@ div.toc-designs {text-align: center;
 }
 div.yt-video {
   text-align: center;
-}
-iframe {
   margin-top: 10px;
 }
 @media only screen and (max-width: 800px) {
