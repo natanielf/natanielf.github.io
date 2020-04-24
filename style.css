@@ -108,7 +108,7 @@ img.gp-imgs {max-width: 40%;
 }
 div.prt-gp-imgs {text-align: center;
 }
-img.iphone-imgs {max-width: 80%;
+img.iphone-imgs {max-width: 20vw;
   height: auto;
   border-radius: 8px;
 }
