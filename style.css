@@ -102,7 +102,7 @@ img.cis-collage {max-width: 60%;
 }
 div.cis-collage {text-align: center;
 }
-img.gp-imgs {max-width: 40%;
+img.gp-imgs {max-width: 40vw;
   height: auto;
   border-radius: 8px;
 }
