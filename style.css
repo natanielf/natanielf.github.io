@@ -45,7 +45,6 @@ h2.contact-link {color: #000000;
   text-decoration: none;
   font-family: courier;
   margin-top: 20px;
-  margin: 0
 }
 h2 a:link, h2 a:visited {color: #000000;
   background-color:#C5FFFD;
@@ -119,27 +118,38 @@ img.toc-logo {max-width: 80vw;
   position: relative;
   display: block;
 }
+/* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
+
+/* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #E0F2E9;
-  color: #000000;
-  font-family: courier;
+  background-color: #555;
+  color: #fff;
   text-align: center;
+  padding: 5px 0;
   border-radius: 6px;
-  padding: 5px 5px;
+
+  /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 125%;
   left: 50%;
   margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
 }
+
+/* Tooltip arrow */
 .tooltip .tooltiptext::after {
- content: "";
+  content: "";
   position: absolute;
   top: 100%;
   left: 50%;
@@ -148,6 +158,8 @@ img.toc-logo {max-width: 80vw;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
+
+/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
