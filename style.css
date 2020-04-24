@@ -119,6 +119,10 @@ img.toc-logo {max-width: 80vw;
   position: relative;
   display: block;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
