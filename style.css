@@ -112,11 +112,8 @@ img {
 img.toc-logo {max-width: 80vw;
   height: auto;
   display: block;
-  left: auto;
-  right: auto;
-.tooltip {
-  position: relative;
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Tooltip container */
 .tooltip {
