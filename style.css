@@ -90,38 +90,18 @@ img.index-imgs {display: block;
   height: auto;
   border-radius: 8px;
 }
-img.gd-imgs {max-width: 40vw;
+img {display: block;
+  left: auto;
+  right: auto;
+  max-width: 40vw;
   height: auto;
   border-radius: 8px;
+}
+img.toc-logo {max-width: 80vw;
+  height: auto;
   display: block;
   left: auto;
   right: auto;
-}
-div.prt-gd-imgs {
-}
-img.cis-collage {max-width: 60%;
-  height: auto;
-  border-radius: 8px;
-}
-div.cis-collage {text-align: center;
-}
-img.gp-imgs {max-width: 40vw;
-  height: auto;
-  border-radius: 8px;
-}
-div.prt-gp-imgs {text-align: center;
-}
-img.nature-imgs {max-width: 40vw;
-  height: auto;
-  border-radius: 8px;
-}
-div.prt-nature-imgs {text-align: center;
-}
-img.toc-logo {max-width: 100%;
-  height: auto;
-}
-div.toc-designs {text-align: center;
-}
 .tooltip {
   position: relative;
   display: block;
