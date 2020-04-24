@@ -93,8 +93,11 @@ img.index-imgs {display: block;
 img.gd-imgs {max-width: 40vw;
   height: auto;
   border-radius: 8px;
+  display: block;
+  left: auto;
+  right: auto;
 }
-div.prt-gd-imgs {text-align: center;
+div.prt-gd-imgs {
 }
 img.cis-collage {max-width: 60%;
   height: auto;
