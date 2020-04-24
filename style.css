@@ -95,7 +95,7 @@ img.index-imgs {display: block;
   height: auto;
   border-radius: 8px;
 }
-img.gd-imgs {max-width: 40%;
+img.gd-imgs {max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
