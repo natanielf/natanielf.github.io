@@ -80,11 +80,6 @@ li a {
   padding: 18px 22px;
   text-decoration: none
 }
-@media only screen and (max-width: 800px) {
-  [class*="nav"] {
-    font-size: 85%;
-  }
-}
 li a:hover {
   background-color:#E0F2E9;
 }
@@ -160,7 +155,7 @@ div.yt-video {
   margin-top: 20px;
 }
 @media only screen and (max-width: 800px) {
-  h1 {
+  h1, [class*="nav"] {
     font-size: 85%;
   }
   iframe {
