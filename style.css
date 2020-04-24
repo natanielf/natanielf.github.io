@@ -167,3 +167,8 @@ div.yt-video {
     height: auto;
   }
 }
+
+
+details {
+  max-width: 40vw;
+}
