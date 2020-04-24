@@ -155,7 +155,7 @@ div.yt-video {
   margin-top: 20px;
 }
 @media only screen and (max-width: 800px) {
-  h1, [class*="nav"] {
+  h1, [class*="nav"], h2 {
     font-size: 85%;
   }
   iframe {
