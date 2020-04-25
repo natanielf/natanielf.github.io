@@ -86,7 +86,7 @@ li a:hover {
 img.index-imgs {display: block;
   left: auto;
   right: auto;
-  max-width: 100%;
+  width: 90vw;
   height: auto;
   border-radius: 8px;
 }
