@@ -83,10 +83,11 @@ li a {
 li a:hover {
   background-color:#E0F2E9;
 }
-img.index-imgs {display: block;
-  left: auto;
-  right: auto;
-  width: 90vw;
+img.index-imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mwidth: 90vw;
   height: auto;
   border-radius: 8px;
 }
