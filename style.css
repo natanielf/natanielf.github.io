@@ -99,15 +99,11 @@ div.prt-gp-imgs {
 div.prt-nature-imgs {
   text-align: center;
 }
-img.cis-collage {
+img.cis-collage {max-width: 80vw;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-img {
-  max-width: 40vw;
-  height: auto;
-  border-radius: 8px;
 }
 img.toc-logo {max-width: 80vw;
   height: auto;
