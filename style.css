@@ -93,6 +93,11 @@ img.index-imgs {display: block;
 div.prt-gd-imgs {
 text-align: center;
 }
+img.gd-imgs, img.gp-imgs, img.nature-imgs {
+  max-width: 40vw;
+  height: auto;
+  border-radius: 8px;
+}
 div.prt-gp-imgs {
   text-align: center;
 }
