@@ -117,16 +117,19 @@ div.yt-video {
   margin-top: 20px;
 }
 @media only screen and (max-width: 800px) {
-  h1, [class*="nav"], h2 {
+  h1, h2, [class*="nav"], li a, {
     font-size: 85%;
   }
   iframe {
     max-width: 80vw;
     height: auto;
   }
-  img {
+  img.gd-imgs, img.gp-imgs, img.nature-imgs {
     max-width: 80vw;
     height: auto;
+  }
+  button {
+    padding: 10px 20px;
   }
 }
 button {
