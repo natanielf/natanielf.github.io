@@ -97,8 +97,8 @@ img.index-imgs {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 98vw;
-  height: auto;
+  height: 100vh;
+  width: auto;
   border-radius: 8px;
 }
 div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
