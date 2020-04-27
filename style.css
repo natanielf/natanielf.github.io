@@ -2,8 +2,9 @@
 body {
   background-color: #C5FFFD;
 }
-h1 {color: #000000;
-text-align: center;
+h1 {
+  color: #000000;
+  text-align: center;
   font-family: courier;
   margin-top: 6vh;
   margin-bottom: 20px;
@@ -22,51 +23,60 @@ text-align: center;
   75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%; margin-top: 6vh;}
   100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%; margin-top: 6vh;}
 }
-h2 {color: #000000;
-text-align: center;
+h2 {
+  color: #000000;
+  text-align: center;
   font-family: courier;
 }
-h2.abt {color: #000000;
+h2.abt {
+  color: #000000;
   text-align: left;
   font-family: courier;
   font-weight: bold;
   margin-left: 8%;
 }
-h2.portfolio {color: #000000;
+h2.portfolio {
+  color: #000000;
   text-align: center;
   font-family: courier;
 }
-h2.contact {color: #000000;
+h2.contact {
+  color: #000000;
   text-align: center;
   font-family: courier;
 }
-h2.contact-link {color: #000000;
+h2.contact-link {
+  color: #000000;
   text-align: center;
   text-decoration: none;
   font-family: courier;
   margin-top: 20px;
 }
-h2 a:link, h2 a:visited {color: #000000;
+h2 a:link, h2 a:visited {
+  color: #000000;
   background-color:#C5FFFD;
 }
-h2 a:hover, h2 a:active {color: #000000;
+h2 a:hover, h2 a:active {
+  color: #000000;
   background-color: #E0F2E9;
 }
-p {color: #000000;
-text-align: left;
+p {
+  color: #000000;
+  text-align: left;
   font-family: courier;
   margin-left: 8%;
   margin-right: 8%;
 }
-ul.nav {list-style-type: none;
-margin: 0px;
-left: 0px;
-padding: 0px;
-overflow: hidden;
-background-color: #a3d5d3;
-position: fixed;
-width: 100%;
-top: 0;
+ul.nav {
+  list-style-type: none;
+  margin: 0px;
+  left: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #a3d5d3;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 li.nav {
   float: left;
