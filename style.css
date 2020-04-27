@@ -118,23 +118,24 @@ div.yt-video {
 }
 @media only screen and (max-width: 800px) {
   h1, h2, [class*="nav"], li a {
-    font-size: 85%;
+    font-size: 90%;
+  }
+  li a {
+  padding: 12px 16px;
   }
   iframe {
-    max-width: 80vw;
+    width: 80vw;
     height: auto;
   }
   img.gd-imgs, img.gp-imgs, img.nature-imgs {
-    max-width: 80vw;
+    width: 80vw;
     height: auto;
-  }
-  img.index-imgs {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   button {
     padding: 10px 20px;
+  }
+  h1 {
+    animation-duration: 3s;
   }
 }
 button {
