@@ -87,7 +87,7 @@ img.index-imgs {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  mwidth: 90vw;
+  max-width: 90vw;
   height: auto;
   border-radius: 8px;
 }
