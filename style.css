@@ -65,7 +65,7 @@ padding: 0px;
 overflow: hidden;
 background-color: #a3d5d3;
 position: fixed;
-width: 100%;
+width: 100vw;
 top: 0;
 }
 li.nav {
