@@ -91,19 +91,13 @@ img.index-imgs {
   height: auto;
   border-radius: 8px;
 }
-div.prt-gd-imgs {
+div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 text-align: center;
 }
 img.gd-imgs, img.gp-imgs, img.nature-imgs {
   max-width: 40vw;
   height: auto;
   border-radius: 8px;
-}
-div.prt-gp-imgs {
-  text-align: center;
-}
-div.prt-nature-imgs {
-  text-align: center;
 }
 img.cis-collage, img.toc-logo {
   max-width: 80vw;
