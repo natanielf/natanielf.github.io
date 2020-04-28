@@ -105,7 +105,7 @@ div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 text-align: center;
 }
 img.gd-imgs, img.gp-imgs, img.nature-imgs {
-  max-width: 40vw;
+  width: 40vw;
   height: auto;
   border-radius: 8px;
 }
@@ -120,7 +120,7 @@ div.yt-video {
   text-align: center;
   margin-top: 20px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
   h1, h2, [class*="nav"], li a {
     font-size: 90%;
   }
@@ -136,8 +136,8 @@ div.yt-video {
     height: auto;
   }
   button {
-    padding: 10px 16px;
-    font-size: 10px;
+    padding: 8px 12px;
+    font-size: 8px;
   }
   h1 {
     margin-top: 8vh;
@@ -157,7 +157,7 @@ background-color: #E0F2E9;
 border: none;
 font-family: courier;
 color: #000000;
-padding: 15px 32px;
+padding: 12px 26px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
