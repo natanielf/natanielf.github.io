@@ -124,7 +124,7 @@ div.yt-video {
 }
 @media only screen and (max-width: 1080px) {
   h1, h2, [class*="nav"], li a {
-    font-size: 90%;
+    font-size: 80%;
   }
   li a {
   padding: 16px 18px;
