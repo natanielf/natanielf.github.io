@@ -71,12 +71,13 @@ ul.nav {
   list-style-type: none;
   margin: 0px;
   left: 0px;
+  top: 0;
+  margin-bottom: auto;
   padding: 0px;
   overflow: hidden;
   background-color: #a3d5d3;
   position: fixed;
   width: 100%;
-  top: 0;
 }
 li.nav {
   float: left;
