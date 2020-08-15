@@ -67,6 +67,9 @@ p {
   margin-left: 8%;
   margin-right: 8%;
 }
+div.navbar {
+  margin-bottom: 1rem;
+}
 ul.nav {
   list-style-type: none;
   margin: 0px;
