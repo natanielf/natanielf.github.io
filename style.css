@@ -155,13 +155,14 @@ div.yt-video {
   }
 }
 button {
-background-color: #E0F2E9;
-border: none;
-font-family: courier;
-color: #000000;
-padding: 12px 26px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+  background-color: #E0F2E9;
+  border: none;
+  border-radius: 8px;
+  font-family: courier;
+  color: #000000;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
