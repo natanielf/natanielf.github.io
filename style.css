@@ -6,8 +6,8 @@ h1 {
   color: #000000;
   text-align: center;
   font-family: courier;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
   margin-right: 80px;
   margin-left: 80px;
   font-weight: bold;
@@ -67,9 +67,6 @@ p {
   margin-left: 8%;
   margin-right: 8%;
 }
-div.navbar {
-  margin-bottom: 1rem;
-}
 ul.nav {
   list-style-type: none;
   margin: 0px;
@@ -102,7 +99,6 @@ div.index {
   place-items: center;
 }
 img.index-imgs {
-  margin-top: auto;
   width: 96vw;
   height: auto;
   border-radius: 8px;
