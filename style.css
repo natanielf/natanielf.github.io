@@ -104,7 +104,8 @@ img.index-imgs {
   border-radius: 8px;
 }
 div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
-place-items: center;
+  display: block;
+  text-align: center;
 }
 img.gd-imgs, img.gp-imgs, img.nature-imgs {
   width: 35vw;
@@ -119,6 +120,7 @@ img.cis-collage, img.toc-logo {
   margin-right: auto;
 }
 div.yt-video {
+  display: grid;
   place-items: center;
   margin-top: 20px;
 }
