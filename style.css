@@ -120,7 +120,7 @@ div.index {
 
 img.index-imgs {
   width: auto;
-  height: 100vh;
+  height: 90vh;
   border-radius: 8px;
 }
 
@@ -131,10 +131,10 @@ div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 }
 
 div.polaroid {
-  width: 35vw;
+  width: 30vw;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   border-radius: 8px;
 }
 
@@ -143,9 +143,16 @@ div.container {
   padding: 0.75rem;
 }
 
-img.gd-imgs, img.gp-imgs, img.nature-imgs {
+img.gd-imgs,  {
   width: 100%;
   height: auto;
+  border-radius: 8px;
+}
+
+img.gp-imgs, img.nature-imgs{
+  width: 35vw;
+  height: auto;
+  margin-bottom: 2rem;
   border-radius: 8px;
 }
 
