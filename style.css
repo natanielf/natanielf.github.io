@@ -6,8 +6,8 @@ h1 {
   color: #000000;
   text-align: center;
   font-family: courier;
-  margin-top: 6vh;
-  margin-bottom: 3vh;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
   margin-right: 80px;
   margin-left: 80px;
   font-weight: bold;
@@ -17,11 +17,11 @@ h1 {
   animation-iteration-count: infinite;
 }
 @keyframes heading-animation {
-  0%   {background-color:#C5FFFD; margin-left: 10.4%; margin-right: 10.4%; margin-top: 6vh;}
-  25%  {background-color:#E0F2E9; margin-left: 5.2%; margin-right: 10.4%; margin-top: 6vh;}
-  50%  {background-color:#E0F2E9; margin-left: 10.4%; margin-right: 5.2%; margin-top: 6vh;}
-  75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%; margin-top: 6vh;}
-  100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%; margin-top: 6vh;}
+  0%   {background-color:#C5FFFD; margin-left: 10.4%; margin-right: 10.4%;}
+  25%  {background-color:#E0F2E9; margin-left: 5.2%; margin-right: 10.4%;}
+  50%  {background-color:#E0F2E9; margin-left: 10.4%; margin-right: 5.2%;}
+  75%  {background-color:#E0F2E9; margin-left: 4.2%; margin-right: 4.2%;}
+  100% {background-color:#C5FFFD; margin-left: 0%; margin-right: 0%;}
 }
 h2 {
   color: #000000;
@@ -71,12 +71,13 @@ ul.nav {
   list-style-type: none;
   margin: 0px;
   left: 0px;
+  top: 0;
+  margin-bottom: 0px;
   padding: 0px;
   overflow: hidden;
   background-color: #a3d5d3;
   position: fixed;
   width: 100%;
-  top: 0;
 }
 li.nav {
   float: left;
@@ -98,13 +99,13 @@ div.index {
   place-items: center;
 }
 img.index-imgs {
-  margin-top: auto;
   width: 96vw;
   height: auto;
   border-radius: 8px;
 }
 div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
-text-align: center;
+  display: block;
+  text-align: center;
 }
 img.gd-imgs, img.gp-imgs, img.nature-imgs {
   width: 35vw;
@@ -119,12 +120,13 @@ img.cis-collage, img.toc-logo {
   margin-right: auto;
 }
 div.yt-video {
-  text-align: center;
+  display: grid;
+  place-items: center;
   margin-top: 20px;
 }
 @media only screen and (max-width: 1080px) {
   h1, h2, [class*="nav"], li a {
-    font-size: 90%;
+    font-size: 80%;
   }
   li a {
   padding: 16px 18px;
@@ -155,13 +157,14 @@ div.yt-video {
   }
 }
 button {
-background-color: #E0F2E9;
-border: none;
-font-family: courier;
-color: #000000;
-padding: 12px 26px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+  background-color: #E0F2E9;
+  border: none;
+  border-radius: 8px;
+  font-family: courier;
+  color: #000000;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
