@@ -120,7 +120,7 @@ div.index {
 
 img.index-imgs {
   width: auto;
-  height: 90vh;
+  height: 85vh;
   border-radius: 8px;
 }
 
@@ -131,10 +131,10 @@ div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 }
 
 div.polaroid {
-  width: 30vw;
+  width: 35vw;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   border-radius: 8px;
 }
 
@@ -143,7 +143,7 @@ div.container {
   padding: 0.75rem;
 }
 
-img.gd-imgs,  {
+img.gd-imgs  {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -178,6 +178,11 @@ h1, h2, [class*="nav"], li a {
 
 li a {
   padding: 16px 18px;
+  }
+
+img.index-imgs {
+    width: 100vw;
+    height: auto;
   }
 
 iframe {
