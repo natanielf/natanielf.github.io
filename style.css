@@ -42,20 +42,13 @@ h2.portfolio {
   color: #000000;
   text-align: center;
   font-family: courier;
+  margin-bottom: 2rem;
 }
 
 h2.contact {
   color: #000000;
   text-align: center;
   font-family: courier;
-}
-
-h2.contact-link {
-  color: #000000;
-  text-align: center;
-  text-decoration: none;
-  font-family: courier;
-  margin-top: 20px;
 }
 
 h2 a:link, h2 a:visited {
