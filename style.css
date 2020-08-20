@@ -196,8 +196,12 @@ img.index-imgs {
   }
 
 img.gp-imgs, img.nature-imgs{
-  width: 70vw;
+  width: 75vw;
   height: auto;
+  }
+
+div.polaroid {
+  width: 75vw;
   }
 
 div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
@@ -207,22 +211,18 @@ div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 }
 
 div.prt-gd-imgs {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 div.prt-gp-imgs, div.prt-nature-imgs {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 iframe {
   width: 80vw;
   height: auto;
-  }
-
-div.polaroid {
-  width: 70vw;
   }
 
 h1 {
