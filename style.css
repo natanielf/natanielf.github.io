@@ -100,7 +100,8 @@ li a {
   font-weight: bold;
   text-align: center;
   padding: 18px 22px;
-  text-decoration: none
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 li a:hover {
