@@ -30,6 +30,7 @@ h2 {
   text-align: center;
   font-family: courier;
 }
+
 h2.abt {
   color: #000000;
   text-align: left;
@@ -134,7 +135,7 @@ div.prt-gp-imgs, div.prt-nature-imgs {
 }
 
 div.polaroid {
-  width: 35vw;
+  width: 30vw;
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 4rem;
