@@ -176,6 +176,10 @@ div.yt-video {
   margin-top: 2rem;
 }
 
+iframe {
+  border-radius: 8px;
+}
+
 @media only screen and (max-width: 1080px) {
 
 h1, h2, [class*="nav"], li a {
