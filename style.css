@@ -61,6 +61,7 @@ h2 a:link, h2 a:visited {
 h2 a:hover, h2 a:active {
   color: #000000;
   background-color: #E0F2E9;
+  border-radius: 8px;
 }
 
 p.abt {
