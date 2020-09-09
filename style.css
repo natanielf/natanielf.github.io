@@ -154,7 +154,7 @@ div.container {
 img.gd-imgs  {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 img.gp-imgs, img.nature-imgs{
