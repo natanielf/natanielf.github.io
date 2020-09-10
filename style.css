@@ -117,8 +117,8 @@ div.index {
 }
 
 img.index-imgs {
-  width: auto;
   height: 88vh;
+  width: auto;
   border-radius: 8px;
 }
 
