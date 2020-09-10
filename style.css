@@ -128,7 +128,7 @@ div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
 	place-items: center;
 }
 
-div.prt-gd-imgs {
+div.prt-gd-imgs, div.prt-csp-imgs {
   margin-left: 8vw;
   margin-right: 8vw;
 }
@@ -151,7 +151,7 @@ div.container {
   padding: 0.75rem;
 }
 
-img.gd-imgs  {
+img.gd-imgs, img.csp-imgs  {
   width: 100%;
   height: auto;
   border-radius: 8px 8px 0px 0px;
