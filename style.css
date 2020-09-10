@@ -122,7 +122,7 @@ img.index-imgs {
   border-radius: 8px;
 }
 
-div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs {
+div.prt-gd-imgs, div.prt-gp-imgs, div.prt-nature-imgs, div.prt-csp-imgs {
   display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	place-items: center;
