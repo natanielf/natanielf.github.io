@@ -164,7 +164,7 @@ img.gp-imgs, img.nature-imgs{
   border-radius: 8px;
 }
 
-img.cis-collage, img.toc-logo {
+img.cis-collage, {
   max-width: 70vw;
   height: auto;
   display: block;
