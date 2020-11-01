@@ -22,11 +22,24 @@ body {
     background-color: #C5FFFD;
 }
 
-h1 {
+h1,
+h2,
+.portfolio {
     color: #000000;
     text-align: center;
     font-family: source-sans-vf, sans-serif, arial;
-    font-weight: 400;
+    font-weight: 350;
+}
+
+p {
+    color: #000000;
+    font-family: source-sans-vf, sans-serif, arial;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    font-family: source-sans-vf, sans-serif, arial;
     margin-top: 4.5rem;
     margin-bottom: 1.5rem;
     margin-right: 80px;
@@ -70,31 +83,13 @@ h1 {
     }
 }
 
-h2 {
+.abt {
     color: #000000;
-    text-align: center;
-    font-family: courier;
-}
-
-h2.abt {
-    color: #000000;
+    font-family: source-sans-vf, sans-serif, arial;
+    font-weight: 350;
     text-align: left;
-    font-family: courier;
-    font-weight: bold;
     margin-left: 8%;
-}
-
-h2.portfolio {
-    color: #000000;
-    text-align: center;
-    font-family: courier;
-    margin-bottom: 2rem;
-}
-
-h2.contact {
-    color: #000000;
-    text-align: center;
-    font-family: courier;
+    margin-right: 8%;
 }
 
 h2 a:link,
@@ -110,18 +105,8 @@ h2 a:active {
     border-radius: 8px;
 }
 
-p.abt {
-    color: #000000;
-    text-align: left;
-    font-family: courier;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-p.img-description {
-    color: #000000;
+.img-description {
     text-align: center;
-    font-family: courier;
 }
 
 ul.nav {
