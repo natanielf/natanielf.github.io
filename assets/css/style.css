@@ -117,7 +117,7 @@ ul.nav {
     margin-bottom: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #a3d5d3;
+    background-color: #A3D5D3;
     position: fixed;
     width: 100%;
     border-radius: 0px 0px 8px 8px;
@@ -219,6 +219,28 @@ div.yt-video {
 
 iframe {
     border-radius: 8px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #C5FFFD;
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #A3D5D3;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #A3D5D3;
 }
 
 @media only screen and (max-width: 1080px) {
