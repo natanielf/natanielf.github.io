@@ -20,26 +20,28 @@
 
 body {
     background-color: #C5FFFD;
+    font-family: source-sans-vf, sans-serif, arial;
 }
 
 h1,
-h2,
-.portfolio {
+h2 {
     color: #000000;
     text-align: center;
-    font-family: source-sans-vf, sans-serif, arial;
     font-weight: 350;
 }
 
 p {
     color: #000000;
-    font-family: source-sans-vf, sans-serif, arial;
     font-weight: 300;
 }
 
+.abt {
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
 h1 {
-    text-align: center;
-    font-family: source-sans-vf, sans-serif, arial;
     margin-top: 4.5rem;
     margin-bottom: 1.5rem;
     margin-right: 80px;
@@ -81,15 +83,6 @@ h1 {
         margin-left: 0%;
         margin-right: 0%;
     }
-}
-
-.abt {
-    color: #000000;
-    font-family: source-sans-vf, sans-serif, arial;
-    font-weight: 350;
-    text-align: left;
-    margin-left: 8%;
-    margin-right: 8%;
 }
 
 h2 a:link,
@@ -225,7 +218,8 @@ iframe {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 12px;
+    height: 12px;
 }
 
 /* Track */
@@ -246,17 +240,6 @@ iframe {
 }
 
 @media only screen and (max-width: 1080px) {
-
-    h1,
-    h2,
-    [class*="nav"],
-    li a {
-        font-size: 85%;
-    }
-
-    li a {
-        padding: 16px 18px;
-    }
 
     img.index-imgs {
         width: 96vw;
