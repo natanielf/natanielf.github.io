@@ -23,6 +23,11 @@ body {
     font-family: source-sans-vf, sans-serif, arial;
 }
 
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+
 h1,
 h2 {
     color: #000000;
@@ -33,6 +38,7 @@ h2 {
 p {
     color: #000000;
     font-weight: 300;
+    text-align: center;
 }
 
 .abt {
@@ -98,9 +104,7 @@ h2 a:active {
     border-radius: 8px;
 }
 
-.img-description {
-    text-align: center;
-}
+
 
 ul.nav {
     list-style-type: none;
@@ -142,30 +146,15 @@ div.index {
 }
 
 img.index-imgs {
-    height: 88vh;
-    width: auto;
+    width: 96vw;
+    height: auto;
     border-radius: 8px;
 }
 
-div.prt-gd-imgs,
-div.prt-gp-imgs,
-div.prt-nature-imgs,
-div.prt-csp-imgs {
+.parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-}
-
-div.prt-gd-imgs,
-div.prt-csp-imgs {
-    margin-left: 8vw;
-    margin-right: 8vw;
-}
-
-div.prt-gp-imgs,
-div.prt-nature-imgs {
-    margin-left: 11vw;
-    margin-right: 11vw;
 }
 
 div.polaroid {
@@ -256,10 +245,7 @@ iframe {
         width: 75vw;
     }
 
-    div.prt-gd-imgs,
-    div.prt-gp-imgs,
-    div.prt-nature-imgs,
-    div.prt-csp-imgs {
+    parent {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
