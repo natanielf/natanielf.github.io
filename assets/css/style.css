@@ -54,7 +54,6 @@ body {
 h1,
 h2 {
     color: #000000;
-    text-align: center;
     font-weight: 350;
 }
 
@@ -63,15 +62,8 @@ p {
     font-weight: 300;
 }
 
-.abt {
-    text-align: left;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
 h1 {
     margin-top: 4.5rem;
-    margin-bottom: 1.5rem;
 }
 
 nav {
@@ -80,18 +72,15 @@ nav {
     text-align: center;
     background-color: #A3D5D3;
     width: 100%;
-    margin: 0px;
-    left: 0px;
     top: 0;
-    right: 0px;
-    overflow: hidden;
-    position: fixed;
+    position: sticky;
     border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav a {
     display: inline-block;
-    padding: 1.2rem 1.2rem;
+    padding: 1.25rem 1.15rem;
 }
 
 a:link,
