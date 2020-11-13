@@ -93,15 +93,15 @@ nav a {
 a:link,
 a:visited {
     color: #000000;
-    text-decoration: none;
-    background-color: transparent;
+    text-decoration: underline;
     border-radius: 8px;
 }
 
 a:hover,
 a:active {
+    color: #000000;
     background-color: var(--soft-white);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 div.index {
