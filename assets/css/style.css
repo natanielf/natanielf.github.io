@@ -26,9 +26,10 @@
 }
 
 body {
+    margin: 0.75rem;
     background-color: var(--bg-color);
     font-family: source-sans-vf, sans-serif, arial;
-    margin: 0.75rem;
+    color: #000000;
 }
 
 .content {
@@ -60,12 +61,14 @@ body {
     padding: 0.75rem;
 }
 
-h1,
+h1 {
+    color: #000000;
+    font-weight: 600;
+}
+
 h2 {
     color: #000000;
     font-weight: 350;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 p {
