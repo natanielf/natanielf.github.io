@@ -50,8 +50,8 @@ body {
     display: grid;
     place-items: center;
     background-color: #FFFFFF;
-    border-radius: 8px;
     margin-bottom: 2rem;
+    border-radius: 8px;
     box-shadow: var(--box-shadow);
 }
 
@@ -81,8 +81,10 @@ nav {
     font-weight: 400;
     text-align: center;
     width: 100%;
-    top: 0;
+    position: -webkit-sticky;
+    /* ^ Safari ^ */
     position: sticky;
+    top: 0;
     overflow: hidden;
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--box-shadow);
@@ -105,11 +107,6 @@ a:active {
     color: #000000;
     background-color: var(--soft-white);
     text-decoration: none;
-}
-
-div.index {
-    display: grid;
-    place-items: center;
 }
 
 img {
