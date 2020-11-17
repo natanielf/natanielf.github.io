@@ -52,6 +52,7 @@ body {
     background-color: #FFFFFF;
     margin-bottom: 2rem;
     border-radius: 8px;
+    -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -79,11 +80,11 @@ nav {
     text-align: center;
     width: 100%;
     position: -webkit-sticky;
-    /* ^ Safari ^ */
     position: sticky;
     top: 0;
     overflow: hidden;
     border-radius: 0px 0px 8px 8px;
+    -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -113,6 +114,7 @@ img {
 
 img.index-imgs {
     border-radius: 8px;
+    -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -125,6 +127,7 @@ img.gp-imgs,
 img.nature-imgs {
     margin-bottom: 1.5rem;
     border-radius: 8px;
+    -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -146,6 +149,7 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -158,6 +162,7 @@ iframe {
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--bg-color);
+    -webkit-box-shadow: inset 0 0 10px var(--accent-color);
     box-shadow: inset 0 0 10px var(--accent-color);
     border-radius: 8px;
 }
