@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'source-sans-vf';
+    font-family: 'Source Sans 3 VF';
     font-weight: 200 900;
     font-style: normal;
     font-stretch: normal;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: 'source-sans-vf';
+    font-family: 'Source Sans 3 VF';
     font-weight: 200 900;
     font-style: italic;
     font-stretch: normal;
@@ -28,7 +28,7 @@
 body {
     margin: 0.75rem;
     background-color: var(--bg-color);
-    font-family: source-sans-vf, sans-serif, arial;
+    font-family: Source Sans 3 VF, sans-serif, arial;
     color: #000000;
 }
 
