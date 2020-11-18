@@ -75,7 +75,6 @@ p {
 
 nav {
     background-color: var(--accent);
-    font-family: source-sans-vf, sans-serif, arial;
     font-weight: 400;
     text-align: center;
     width: 100%;
