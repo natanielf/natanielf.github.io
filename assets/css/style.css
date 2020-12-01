@@ -14,25 +14,31 @@
         url('../fonts/SpaceGrotesk[wght].ttf') format('truetype');
 }
 
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
-    margin: 0.75rem;
+    margin: 0;
     background-color: var(--bkgd);
-    font-family: Space-Grotesk, sans-serif, Arial;
     color: #000000;
+    font-family: Space-Grotesk, sans-serif, Arial;
 }
 
 .content {
-    max-width: 960px;
-    margin: auto;
+    max-width: 1080px;
+    margin: 0 auto;
     display: grid;
     place-items: center;
+    padding: 0.75rem;
 }
 
 .parent {
     width: 100%;
     display: grid;
     grid-gap: 4rem;
-    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .polaroid {
@@ -51,6 +57,8 @@ body {
 }
 
 h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
     font-weight: 500;
 }
 
@@ -124,7 +132,7 @@ img.nature-imgs {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
     margin-top: 2rem;
 }
 
