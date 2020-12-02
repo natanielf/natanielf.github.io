@@ -6,44 +6,47 @@
 }
 
 @font-face {
-    font-family: 'Source-Sans-3-VF';
-    font-weight: 200 900;
+    font-family: 'Space-Grotesk';
+    font-weight: 300 700;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SourceSans3VF-Roman.ttf.woff2') format('woff2'),
-        url('../fonts/SourceSans3VF-Roman.ttf.woff') format('woff'),
-        url('../fonts/SourceSans3VF-Roman.ttf') format('truetype');
+    src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2'),
+        url('../fonts/SpaceGrotesk[wght].ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Source-Sans-3-VF';
-    font-weight: 200 900;
-    font-style: italic;
-    font-stretch: normal;
-    src: url('../fonts/SourceSans3VF-Italic.ttf.woff2') format('woff2'),
-        url('../fonts/SourceSans3VF-Italic.ttf.woff') format('woff'),
-        url('../fonts/SourceSans3VF-Italic.ttf') format('truetype');
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0.75rem;
+    margin: 0;
     background-color: var(--bkgd);
-    font-family: Source-Sans-3-VF, sans-serif, Arial;
     color: #000000;
+    font-family: Space-Grotesk, sans-serif, Arial;
+}
+
+.content {
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    padding: 0.75rem;
+=======
 }
 
 .content {
     max-width: 960px;
-    margin: auto;
-    display: grid;
-    place-items: center;
+
 }
 
 .parent {
     width: 100%;
     display: grid;
     grid-gap: 4rem;
-    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+=======
+
 }
 
 .polaroid {
@@ -62,11 +65,19 @@ body {
 }
 
 h1 {
-    font-weight: 600;
+
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: 500;
 }
 
 h2 {
-    font-weight: 350;
+    font-weight: 340;
+=======
+}
+
+h2 {
+
 }
 
 p {
@@ -135,7 +146,10 @@ img.nature-imgs {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+    /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
+=======
+
     margin-top: 2rem;
 }
 
