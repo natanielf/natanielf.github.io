@@ -100,7 +100,6 @@ img {
     height: 100%;
     overflow: hidden;
     position: relative;
-    cursor: default;
     display: grid;
     place-items: center;
 }
