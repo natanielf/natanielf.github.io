@@ -102,19 +102,20 @@ img {
     position: relative;
     display: grid;
     place-items: center;
+    border-radius: 8px;
 }
 
 .view .mask {
     margin: 20px;
     width: auto;
     height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #FFFFFF;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #FFFFFF;
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
     opacity: 0;
@@ -128,8 +129,9 @@ img {
     border-radius: 8px;
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
-    -webkit-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     background-color: #FFFFFF;
 }
 
@@ -142,20 +144,20 @@ img {
     margin: 1em;
     -webkit-transform: scale(0);
     transform: scale(0);
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     opacity: 0;
 }
 
 .view p {
     position: relative;
     margin: 0.5rem;
-    padding: 1em;
-    opacity: 0;
+    padding: 1rem;
     -webkit-transform: scale(0);
     transform: scale(0);
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
 }
 
 .view:hover img {
