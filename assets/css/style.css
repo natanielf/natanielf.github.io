@@ -233,7 +233,7 @@ iframe {
     height: 100%;
     position: fixed;
     z-index: -100;
-    background-color: #FFFFFF;
+    background-color: #F9F9F9;
     /* background-image: url(''); Background image, if needed */
     background-size: cover;
     background-position: 50% 50%;
