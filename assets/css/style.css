@@ -22,7 +22,7 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--bkgd);
+    /*    background-color: var(--bkgd);*/
     color: #000000;
     font-family: Space-Grotesk, sans-serif, Arial;
     text-align: center;
