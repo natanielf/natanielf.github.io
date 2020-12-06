@@ -3,7 +3,7 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 80,
+                "value": 95,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -38,7 +38,7 @@ particlesJS('particles-js',
                 }
             },
             "size": {
-                "value": 5,
+                "value": 3,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -61,6 +61,7 @@ particlesJS('particles-js',
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
+                "bounce": false,
                 "attract": {
                     "enable": false,
                     "rotateX": 600,
@@ -73,7 +74,7 @@ particlesJS('particles-js',
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "repulse"
+                    "mode": "grab"
                 },
                 "onclick": {
                     "enable": true,
@@ -83,7 +84,7 @@ particlesJS('particles-js',
             },
             "modes": {
                 "grab": {
-                    "distance": 400,
+                    "distance": 200,
                     "line_linked": {
                         "opacity": 1
                     }
@@ -92,11 +93,12 @@ particlesJS('particles-js',
                     "distance": 400,
                     "size": 40,
                     "duration": 2,
-                    "opacity": 8,
+                    "opacity": 6,
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 200
+                    "distance": 200,
+                    "duration": 0.4
                 },
                 "push": {
                     "particles_nb": 4
@@ -106,7 +108,7 @@ particlesJS('particles-js',
                 }
             }
         },
-        "retina_detect": true,
+        "retina_detect": true
     }
 
 );
