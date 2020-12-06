@@ -228,12 +228,17 @@ iframe {
     background: var(--accent);
 }
 
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
 #particles-js {
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -100;
-    background-color: #F9F9F9;
+    background-color: #B61924;
     /* background-image: url(''); Background image, if needed */
     background-size: cover;
     background-position: 50% 50%;
