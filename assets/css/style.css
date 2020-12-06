@@ -22,7 +22,7 @@ html {
 
 body {
     margin: 0;
-    /*    background-color: var(--bkgd);*/
+    background-color: #EC1F28;
     color: #000000;
     font-family: Space-Grotesk, sans-serif, Arial;
     text-align: center;
@@ -30,11 +30,12 @@ body {
 
 .content {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0.75rem auto;
     display: grid;
     place-items: center;
-    background-color: var(--bkgd);
+    background-color: rgba(255, 255, 255, 1);
     padding: 0.75rem;
+    border-radius: 16px;
 }
 
 .parent {
@@ -66,7 +67,7 @@ nav {
     position: sticky;
     top: 0;
     overflow: hidden;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 8px;
     -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
     z-index: 1;
@@ -237,8 +238,8 @@ canvas {
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: -100;
-    background-color: #B61924;
+    z-index: -1;
+    background-color: #EC1F28;
     /* background-image: url(''); Background image, if needed */
     background-size: cover;
     background-position: 50% 50%;
