@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-## [natanielfarzan.com](https://natanielfarzan.com)
+## Check it out here: [natanielfarzan.com](https://natanielfarzan.com)
 
 This project started 2 years ago while I was a freshman in my Computer Information System class. Ever since, I've updated and improved it. I've learned a lot about web design, programming, and [Git version control](https://git-scm.com/) from it and for that I'm thankful.
 
@@ -14,4 +14,5 @@ This project started 2 years ago while I was a freshman in my Computer Informati
 - [particles.js](https://github.com/VincentGarreau/particles.js) for a cool animated background
 
 ### What I plan on adding in the future:
-- [ ] Light/dark mode toggle feature as well as `@media (prefers-color-scheme: light/dark)` in css
+- [ ] Light/dark mode toggle feature
+- [ ] Scroll to top button
