@@ -3,7 +3,7 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 95,
+                "value": 100,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -28,30 +28,30 @@ particlesJS('particles-js',
                 }
             },
             "opacity": {
-                "value": 0.5,
+                "value": 0.8,
                 "random": false,
                 "anim": {
-                    "enable": false,
+                    "enable": true,
                     "speed": 1,
-                    "opacity_min": 0.1,
+                    "opacity_min": 0.2,
                     "sync": false
                 }
             },
             "size": {
-                "value": 3,
+                "value": 4,
                 "random": true,
                 "anim": {
-                    "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
+                    "enable": true,
+                    "speed": 10,
+                    "size_min": 0.2,
                     "sync": false
                 }
             },
             "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 175,
                 "color": "#ec1f28",
-                "opacity": 0.4,
+                "opacity": 0.6,
                 "width": 1
             },
             "move": {
@@ -70,7 +70,7 @@ particlesJS('particles-js',
             }
         },
         "interactivity": {
-            "detect_on": "canvas",
+            "detect_on": "window",
             "events": {
                 "onhover": {
                     "enable": true,
@@ -78,15 +78,15 @@ particlesJS('particles-js',
                 },
                 "onclick": {
                     "enable": true,
-                    "mode": "push"
+                    "mode": "repulse"
                 },
                 "resize": true
             },
             "modes": {
                 "grab": {
-                    "distance": 200,
+                    "distance": 175,
                     "line_linked": {
-                        "opacity": 1
+                        "opacity": 0.8
                     }
                 },
                 "bubble": {
