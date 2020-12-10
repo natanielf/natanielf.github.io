@@ -1,14 +1,16 @@
 :root {
-    --light-main: #FFFFFF;
-    --light-accent: #000000;
-    --light-content-bkgd: rgba(255, 255, 255, 0.8);
-    --light-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --lt-main: #FFFFFF;
+    --lt-accent: #000000;
+    --lt-content-bkgd: rgba(255, 255, 255, 0.8);
+    --lt-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --lt-line: 1px solid rgba(0, 0, 0, 0.3);
     --red: #EC1F28;
     --red-transparent: rgba(236, 31, 40, 0.5);
-    --dark-main: #000000;
-    --dark-accent: #FFFFFF;
-    --dark-content-bkgd: rgba(0, 0, 0, 0.8);
-    --dark-box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    --dt-main: #000000;
+    --dt-accent: #FFFFFF;
+    --dt-content-bkgd: rgba(0, 0, 0, 0.8);
+    --dt-box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    --dt-line: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @font-face {
@@ -28,8 +30,8 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--light-main);
-    color: var(--light-accent);
+    background-color: var(--lt-main);
+    color: var(--lt-accent);
     font-family: Space-Grotesk, sans-serif, Arial;
     text-align: center;
 }
@@ -41,12 +43,12 @@ body {
     place-items: center;
     padding: 1.5rem;
     border-radius: 16px;
-    background-color: var(--light-content-bkgd);
+    background-color: var(--lt-content-bkgd);
     border-style: solid;
     border-width: medium;
     border-color: var(--red);
-    -webkit-box-shadow: var(--light-box-shadow);
-    box-shadow: var(--light-box-shadow);
+    -webkit-box-shadow: var(--lt-box-shadow);
+    box-shadow: var(--lt-box-shadow);
 }
 
 .parent {
@@ -60,6 +62,14 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
     font-weight: 500;
+}
+
+hr {
+    height: 0.75px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: var(--red);
 }
 
 h2 {
@@ -76,7 +86,7 @@ p {
 
 nav {
     width: 100%;
-    background-color: var(--light-main);
+    background-color: var(--lt-main);
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -92,8 +102,8 @@ nav {
 }
 
 nav:hover {
-    -webkit-box-shadow: var(--light-box-shadow);
-    box-shadow: var(--light-box-shadow);
+    -webkit-box-shadow: var(--lt-box-shadow);
+    box-shadow: var(--lt-box-shadow);
 }
 
 nav a {
@@ -103,14 +113,14 @@ nav a {
 
 a:link,
 a:visited {
-    color: var(--light-accent);
+    color: var(--lt-accent);
     text-decoration: underline;
     border-radius: 8px;
 }
 
 a:hover,
 a:active {
-    color: var(--light-accent);
+    color: var(--lt-accent);
     background-color: var(--red);
     text-decoration: none;
 }
@@ -137,7 +147,7 @@ img {
     height: auto;
     overflow: hidden;
     border-radius: 8px;
-    background-color: var(--light-main);
+    background-color: var(--lt-main);
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -160,7 +170,7 @@ img {
     transform: scaleY(1);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background-color: var(--light-main);
+    background-color: var(--lt-main);
 }
 
 .view h3 {
@@ -168,7 +178,7 @@ img {
     position: relative;
     font-weight: 450;
     padding: 0.5em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: var(--lt-line);
     margin: 1em;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -196,8 +206,8 @@ img {
 
 .view:hover .mask {
     opacity: 1;
-    -webkit-box-shadow: var(--light-box-shadow);
-    box-shadow: var(--light-box-shadow);
+    -webkit-box-shadow: var(--lt-box-shadow);
+    box-shadow: var(--lt-box-shadow);
 }
 
 .view:hover h3,
@@ -224,8 +234,8 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    -webkit-box-shadow: var(--light-box-shadow);
-    box-shadow: var(--light-box-shadow);
+    -webkit-box-shadow: var(--lt-box-shadow);
+    box-shadow: var(--lt-box-shadow);
 }
 
 /* Width and Height */
@@ -236,9 +246,9 @@ iframe {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: var(--light-main);
-    -webkit-box-shadow: inset 0 0 8px var(--light-accent);
-    box-shadow: inset 0 0 8px var(--light-accent);
+    background: var(--lt-main);
+    -webkit-box-shadow: inset 0 0 8px var(--lt-accent);
+    box-shadow: inset 0 0 8px var(--lt-accent);
     border-radius: 8px;
 }
 
@@ -251,8 +261,8 @@ iframe {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--red);
-    -webkit-box-shadow: inset 0 0 8px var(--light-accent);
-    box-shadow: inset 0 0 8px var(--light-accent);
+    -webkit-box-shadow: inset 0 0 8px var(--lt-accent);
+    box-shadow: inset 0 0 8px var(--lt-accent);
 }
 
 canvas {
@@ -265,7 +275,7 @@ canvas {
     height: 100%;
     position: fixed;
     z-index: -1;
-    background-color: var(--light-main);
+    background-color: var(--lt-main);
     /* background-image: url(''); Background image, if needed */
     background-size: cover;
     background-position: 50% 50%;
@@ -274,61 +284,61 @@ canvas {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: var(--dark-main);
-        color: var(--dark-accent);
+        background-color: var(--dt-main);
+        color: var(--dt-accent);
     }
 
     .content {
-        background-color: var(--dark-content-bkgd);
-        -webkit-box-shadow: var(--dark-box-shadow);
-        box-shadow: var(--dark-box-shadow);
+        background-color: var(--dt-content-bkgd);
+        -webkit-box-shadow: var(--dt-box-shadow);
+        box-shadow: var(--dt-box-shadow);
     }
 
     nav {
-        background-color: var(--dark-main);
+        background-color: var(--dt-main);
     }
 
     nav:hover {
-        -webkit-box-shadow: var(--dark-box-shadow);
-        box-shadow: var(--dark-box-shadow);
+        -webkit-box-shadow: var(--dt-box-shadow);
+        box-shadow: var(--dt-box-shadow);
     }
 
     a:link,
     a:visited {
-        background-color: var(--dark-main);
-        color: var(--dark-accent);
+        background-color: var(--dt-main);
+        color: var(--dt-accent);
     }
 
     a:hover,
     a:active {
-        color: var(--dark-accent);
+        color: var(--dt-accent);
         background-color: var(--red);
     }
 
     .view .mask {
-        background-color: var(--dark-main);
+        background-color: var(--dt-main);
     }
 
     .view h3 {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: var(--dt-line);
     }
 
     .view:hover .mask {
-        -webkit-box-shadow: var(--dark-box-shadow);
-        box-shadow: var(--dark-box-shadow);
+        -webkit-box-shadow: var(--dt-box-shadow);
+        box-shadow: var(--dt-box-shadow);
     }
 
     ::-webkit-scrollbar-track {
-        background: var(--dark-main);
+        background: var(--dt-main);
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        -webkit-box-shadow: inset 0 0 8px var(--dark-accent);
-        box-shadow: inset 0 0 8px var(--dark-accent);
+        -webkit-box-shadow: inset 0 0 8px var(--dt-accent);
+        box-shadow: inset 0 0 8px var(--dt-accent);
     }
 
     #particles-js {
-        background-color: var(--dark-main);
+        background-color: var(--dt-main);
     }
 
 }
