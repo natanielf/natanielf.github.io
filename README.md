@@ -16,3 +16,4 @@ This project started 2 years ago while I was a freshman in my Computer Informati
 ### What I plan on adding in the future:
 - [ ] Light/dark mode toggle feature
 - [ ] Scroll to top button
+- [ ] Footer section
