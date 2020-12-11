@@ -1,14 +1,14 @@
 :root {
     --lt-main: #FFFFFF;
     --lt-accent: #000000;
-    --lt-content-bkgd: rgba(255, 255, 255, 0.8);
+    --lt-content-bkgd: rgba(255, 255, 255, 0.75);
     --lt-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --lt-line: thin solid rgba(0, 0, 0, 0.3);
     --red: #EC1F28;
     --red-transparent: rgba(236, 31, 40, 0.5);
     --dt-main: #000000;
     --dt-accent: #FFFFFF;
-    --dt-content-bkgd: rgba(0, 0, 0, 0.8);
+    --dt-content-bkgd: rgba(0, 0, 0, 0.75);
     --dt-box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     --dt-line: thin solid rgba(255, 255, 255, 0.3);
 }
@@ -55,21 +55,30 @@ body {
     width: 100%;
     display: grid;
     grid-gap: 3.5rem;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+.footer {
+    width: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--red);
+    border-radius: 8px;
+}
+
+hr {
+    height: 1.5px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: var(--red);
+    border-radius: 8px;
 }
 
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
     font-weight: 500;
-}
-
-hr {
-    height: 0.75px;
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    background-color: var(--red);
 }
 
 h2 {
