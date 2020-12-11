@@ -39,11 +39,9 @@ body {
 .content {
     max-width: 960px;
     margin: 0 auto;
-    display: grid;
-    place-items: center;
     padding: 1.5rem;
-    border-radius: 16px;
     background-color: var(--lt-content-bkgd);
+    border-radius: 16px;
     border-style: solid;
     border-width: medium;
     border-color: var(--red);
@@ -55,11 +53,16 @@ body {
     width: 100%;
     display: grid;
     grid-gap: 3.5rem;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .footer {
     width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -69,8 +72,8 @@ body {
 hr {
     height: 1.5px;
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     background-color: var(--red);
     border-radius: 8px;
 }
@@ -156,8 +159,8 @@ img {
     width: auto;
     height: auto;
     overflow: hidden;
-    border-radius: 8px;
     background-color: var(--lt-main);
+    border-radius: 8px;
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -233,6 +236,10 @@ img {
     width: 100%;
     padding-top: 56.25%;
     /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--red);
 }
 
 iframe {
@@ -244,14 +251,12 @@ iframe {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    -webkit-box-shadow: var(--lt-box-shadow);
-    box-shadow: var(--lt-box-shadow);
 }
 
 /* Width and Height */
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 /* Track */
@@ -287,7 +292,7 @@ canvas {
     z-index: -1;
     background-color: var(--lt-main);
     /* background-image: url(''); Background image, if needed */
-    background-size: cover;
+    /* background-size: cover;*/
     background-position: 50% 50%;
     /* background-repeat: no-repeat; Useful when using a texture */
 }
