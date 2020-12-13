@@ -262,8 +262,6 @@ iframe {
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--lt-main);
-    -webkit-box-shadow: inset 0 0 8px var(--lt-accent);
-    box-shadow: inset 0 0 8px var(--lt-accent);
     border-radius: 8px;
 }
 
