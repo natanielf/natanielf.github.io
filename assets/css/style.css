@@ -59,11 +59,14 @@ body {
 
 .footer {
     width: 100%;
+    display: grid;
+    place-items: center;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     text-align: center;
+    padding: 0.25rem;
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -143,6 +146,13 @@ img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    place-items: center;
+    grid-gap: 10px;
 }
 
 .view {
