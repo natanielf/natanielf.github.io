@@ -6,6 +6,7 @@
     --lt-line: thin solid rgba(0, 0, 0, 0.3);
     --red: #EC1F28;
     --red-transparent: rgba(236, 31, 40, 0.5);
+    --br: 8px;
     --dt-main: #000000;
     --dt-accent: #FFFFFF;
     --dt-content-bkgd: rgba(0, 0, 0, 0.75);
@@ -42,7 +43,7 @@ body {
     margin-bottom: 3rem;
     padding: 1.5rem;
     background-color: var(--lt-content-bkgd);
-    border-radius: 16px;
+    border-radius: calc(var(--br) * 2);
     border-style: solid;
     border-width: medium;
     border-color: var(--red);
@@ -59,18 +60,18 @@ body {
 
 .footer {
     width: 100%;
+    height: auto;
     display: grid;
     place-items: center;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    text-align: center;
-    padding: 0.25rem;
+    padding: 0.3rem;
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 hr {
@@ -79,7 +80,7 @@ hr {
     margin-top: 3rem;
     margin-bottom: 4rem;
     background-color: var(--red);
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 h1 {
@@ -113,7 +114,7 @@ nav {
     top: 0;
     overflow: hidden;
     z-index: 1;
-    border-radius: 8px;
+    border-radius: var(--br);
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
 }
@@ -132,7 +133,7 @@ a:link,
 a:visited {
     color: var(--lt-accent);
     text-decoration: underline;
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 a:hover,
@@ -145,14 +146,7 @@ a:active {
 img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-}
-
-.logo-container {
-    display: grid;
-    grid-template-columns: repeat(2, 40px);
-    place-items: center;
-    grid-gap: 10px;
+    border-radius: var(--br);
 }
 
 .view {
@@ -162,7 +156,7 @@ img {
     position: relative;
     display: grid;
     place-items: center;
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 .view .mask {
@@ -171,7 +165,7 @@ img {
     height: auto;
     overflow: hidden;
     background-color: var(--lt-main);
-    border-radius: 8px;
+    border-radius: var(--br);
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -189,7 +183,7 @@ img {
     position: relative;
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: var(--br);
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     -webkit-transition: all 0.4s ease-in-out;
@@ -247,7 +241,7 @@ img {
     width: 100%;
     padding-top: 56.25%;
     /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
-    border-radius: 8px;
+    border-radius: var(--br);
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
@@ -261,7 +255,26 @@ iframe {
     right: 0;
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: var(--br);
+}
+
+.logo-container {
+    margin: 8px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    place-items: center;
+    grid-gap: 25px;
+}
+
+.logo-container img {
+    border-radius: 0;
+}
+
+a.logo-link:link,
+a.logo-link:visited,
+a.logo-link:hover,
+a.logo-link:active {
+    background-color: transparent;
 }
 
 /* Width and Height */
@@ -273,13 +286,13 @@ iframe {
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--lt-main);
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--red);
-    border-radius: 8px;
+    border-radius: var(--br);
 }
 
 /* Handle on hover */
