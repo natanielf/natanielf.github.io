@@ -114,7 +114,8 @@ nav {
     transition: all 0.25s ease;
 }
 
-nav:hover {
+nav:hover,
+nav:focus-within {
     -webkit-box-shadow: var(--lt-box-shadow);
     box-shadow: var(--lt-box-shadow);
 }
@@ -331,7 +332,8 @@ canvas {
         background-color: var(--dt-main);
     }
 
-    nav:hover {
+    nav:hover,
+    nav:focus-within {
         -webkit-box-shadow: var(--dt-box-shadow);
         box-shadow: var(--dt-box-shadow);
     }
