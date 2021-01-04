@@ -17,4 +17,4 @@ This project started 2 years ago while I was a freshman in my Computer Informati
 - [ ] Light/dark mode toggle feature
 - [ ] Scroll to top button
 - [x] Footer section
-- [ ] "Client Work" sub-section inside the portfolio - showcasing recent video projects I've worked on
+- [x] "Client Work" sub-section inside the portfolio - showcasing recent video projects I've worked on
