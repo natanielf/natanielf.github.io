@@ -5,7 +5,7 @@
     --lt-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --lt-line: thin solid rgba(0, 0, 0, 0.3);
     --red: #EC1F28;
-    --red-transparent: rgba(236, 31, 40, 0.5);
+    --red-transparent: rgba(236, 31, 40, 0.75);
     --br: 8px;
     --dt-main: #000000;
     --dt-accent: #FFFFFF;
@@ -260,7 +260,7 @@ iframe {
     display: grid;
     grid-template-columns: repeat(2, 40px);
     place-items: center;
-    grid-gap: 25px;
+    grid-gap: 30px;
 }
 
 .logo-container img {
@@ -288,15 +288,13 @@ a.logo-link:active {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--red);
+    background: var(--red-transparent);
     border-radius: var(--br);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--red);
-    -webkit-box-shadow: inset 0 0 8px var(--lt-accent);
-    box-shadow: inset 0 0 8px var(--lt-accent);
 }
 
 ::selection {
@@ -314,10 +312,10 @@ canvas {
     position: fixed;
     z-index: -1;
     background-color: var(--lt-main);
-    /* background-image: url(''); Background image, if needed */
-    /* background-size: cover;*/
+    /* background-image: url(''); */
+    /* background-size: cover; */
     background-position: 50% 50%;
-    /* background-repeat: no-repeat; Useful when using a texture */
+    /* background-repeat: no-repeat; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -368,11 +366,6 @@ canvas {
 
     ::-webkit-scrollbar-track {
         background: var(--dt-main);
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        -webkit-box-shadow: inset 0 0 8px var(--dt-accent);
-        box-shadow: inset 0 0 8px var(--dt-accent);
     }
 
     #particles-js {
