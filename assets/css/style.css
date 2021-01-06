@@ -7,6 +7,7 @@
     --red: #EC1F28;
     --red-transparent: rgba(236, 31, 40, 0.75);
     --br: 8px;
+    --shadow-transition: all 0.25s ease-out;
     --dt-main: #000000;
     --dt-accent: #FFFFFF;
     --dt-content-bkgd: rgba(0, 0, 0, 0.75);
@@ -63,10 +64,13 @@ body {
     height: auto;
     display: grid;
     place-items: center;
+    background-color: var(--lt-main);
     border-style: solid;
     border-width: thin;
     border-color: var(--red);
     border-radius: var(--br);
+    -webkit-transition: var(--shadow-transition);
+    transition: var(--shadow-transition);
 }
 
 hr {
@@ -110,12 +114,14 @@ nav {
     overflow: hidden;
     z-index: 1;
     border-radius: var(--br);
-    -webkit-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
+    -webkit-transition: var(--shadow-transition);
+    transition: var(--shadow-transition);
 }
 
 nav:hover,
-nav:focus-within {
+nav:focus-within,
+.footer:hover,
+.footer:focus-within {
     -webkit-box-shadow: var(--lt-box-shadow);
     box-shadow: var(--lt-box-shadow);
 }
@@ -330,12 +336,15 @@ canvas {
         box-shadow: var(--dt-box-shadow);
     }
 
-    nav {
+    nav,
+    .footer {
         background-color: var(--dt-main);
     }
 
     nav:hover,
-    nav:focus-within {
+    nav:focus-within,
+    .footer:hover,
+    .footer:focus-within {
         -webkit-box-shadow: var(--dt-box-shadow);
         box-shadow: var(--dt-box-shadow);
     }
