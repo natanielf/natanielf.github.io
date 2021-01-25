@@ -17,11 +17,12 @@
 
 @font-face {
     font-family: 'Space-Grotesk';
+    src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2'),
+        url('../fonts/SpaceGrotesk[wght].ttf') format('truetype');
     font-weight: 300 700;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2'),
-        url('../fonts/SpaceGrotesk[wght].ttf') format('truetype');
+    font-display: swap;
 }
 
 html {
@@ -178,6 +179,7 @@ img {
     transform: translateY(-50%);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    filter: blur(2px);
     opacity: 0;
 }
 
@@ -198,8 +200,8 @@ img {
     text-transform: uppercase;
     position: relative;
     font-weight: 450;
-    margin: 1em;
-    padding: 0.3em;
+    margin: 1rem;
+    padding: 0.3rem;
     border-bottom: var(--lt-line);
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -210,8 +212,8 @@ img {
 
 .view p {
     position: relative;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    padding: 0.3rem;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: all 0.4s ease-in-out;
@@ -222,10 +224,12 @@ img {
 .view:hover img {
     -webkit-transform: scale(1.8);
     transform: scale(1.8);
+    filter: blur(2px);
     opacity: 0;
 }
 
 .view:hover .mask {
+    filter: blur(0px);
     opacity: 1;
     -webkit-box-shadow: var(--lt-box-shadow);
     box-shadow: var(--lt-box-shadow);
