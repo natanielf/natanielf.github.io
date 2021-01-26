@@ -179,7 +179,6 @@ img {
     transform: translateY(-50%);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    filter: blur(2px);
     opacity: 0;
 }
 
@@ -224,12 +223,10 @@ img {
 .view:hover img {
     -webkit-transform: scale(1.8);
     transform: scale(1.8);
-    filter: blur(2px);
     opacity: 0;
 }
 
 .view:hover .mask {
-    filter: blur(0px);
     opacity: 1;
     -webkit-box-shadow: var(--lt-box-shadow);
     box-shadow: var(--lt-box-shadow);
