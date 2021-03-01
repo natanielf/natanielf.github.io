@@ -13,6 +13,7 @@ This project started 2 years ago while I was a freshman in my Computer Informati
 - [normalize.css](https://github.com/necolas/normalize.css) for a few tips on css resets
 - [codrops](https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/) for an image description animation in 100% CSS
 - [particles.js](https://github.com/VincentGarreau/particles.js) for a cool animated background
+- [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for helpful tips on website best practices
 
 ### Features:
 
