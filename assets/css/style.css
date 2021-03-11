@@ -80,11 +80,7 @@ h2 {
     margin: 1.5em;
 }
 
-h3 {
-    font-weight: 300;
-}
-
-p {
+h3, p {
     font-weight: 300;
 }
 
