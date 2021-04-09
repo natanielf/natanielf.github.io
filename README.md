@@ -6,7 +6,7 @@ This project started 2 years ago while I was a freshman in my Computer Informati
 
 ### Inspiration and Attributions:
 
-- Ms. Neumann  (My CIS and AP CSP teacher)
+- Ms. Neumann (My CIS and AP CSP teacher)
 - [Adobe Brackets](http://brackets.io/) for making an awesome text editor!
 - [Space Grotesk Font](https://floriankarsten.github.io/space-grotesk/); also available on [Google Fonts](https://fonts.google.com/specimen/Space+Grotesk)
 - [minal.ml](https://minar.ml/) and his source code available [here](https://github.com/m-i-n-a-r/sparky-portfolio)
