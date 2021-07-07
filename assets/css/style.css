@@ -30,7 +30,7 @@
 }
 
 @font-face {
-  font-family: "Space-Grotesk";
+  font-family: "Space Grotesk";
   src: url("../fonts/SpaceGrotesk[wght].woff2") format("woff2"),
     url("../fonts/SpaceGrotesk[wght].ttf") format("truetype");
   font-weight: 300 700;
@@ -52,7 +52,8 @@ body {
   margin: 0;
   background-color: var(--clr-bkgd);
   color: var(--clr-text);
-  font-family: Space-Grotesk, sans-serif, Arial;
+  font-family: "Space Grotesk", sans-serif, Arial;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -86,18 +87,14 @@ hr {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  font-weight: 500;
+  font-weight: normal;
   text-decoration: underline solid var(--clr-red);
 }
 
-h2 {
-  font-weight: 340;
-  margin: 1.5em;
-}
-
+h2,
 h3,
 p {
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 nav {
