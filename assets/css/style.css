@@ -4,7 +4,7 @@
   --clr-red: hsl(357, 84%, 52%);
   --clr-red-transparent: hsla(357, 84%, 52%, 0.75);
   --br: 10px;
-  --box-shadow-transition: box-shadow 0.2s ease-out;
+  --box-shadow-transition: box-shadow 200ms ease-out;
   --clr-bkgd: hsl(0, 0%, 100%);
   --clr-text: hsl(0, 0%, 0%);
   --content-bkgd: hsla(0, 0%, 100%, 0.75);
@@ -14,8 +14,7 @@
   --clr-bkgd-dark: hsl(0, 0%, 0%);
   --clr-text-dark: hsl(0, 0%, 100%);
   --content-bkgd-dark: hsla(0, 0%, 0%, 0.75);
-  --box-shadow-dark: 0 4px 8px 0 hsla(0, 0%, 100%, 0.2),
-    0 6px 20px 0 hsla(0, 0%, 100%, 0.19);
+  --box-shadow-dark: none;
   --line-dark: thin solid hsla(0, 0%, 100%, 0.3);
 }
 
@@ -72,8 +71,8 @@ body {
 .parent {
   width: 100%;
   display: grid;
-  gap: 3.5rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3.5rem;
 }
 
 hr {
