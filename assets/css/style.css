@@ -57,7 +57,7 @@ body {
 }
 
 .content {
-  max-width: 960px;
+  max-width: 60em;
   margin: 0 auto;
   margin-bottom: 3rem;
   padding: 1.4rem;
@@ -71,14 +71,14 @@ body {
 .parent {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 3.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+  gap: 4em;
 }
 
 hr {
-  height: 2px;
+  height: 0.125em;
   width: 100%;
-  margin: 2rem 0 3rem 0;
+  margin: 2em 0 3em 0;
   background-color: var(--clr-red);
   border: none;
 }
