@@ -5,9 +5,9 @@
   --clr-brand-transparent: hsla(357, 84%, 52%, 0.75);
   --br: 10px;
   --box-shadow-transition: box-shadow 200ms ease-out;
-  --clr-bkgd: hsl(0, 0%, 100%);
+  --clr-bkgd: hsl(0, 0%, 98%);
   --clr-text: hsl(0, 0%, 0%);
-  --content-bkgd: hsla(0, 0%, 100%, 0.75);
+  --content-bkgd: hsla(0, 0%, 98%, 0.4);
   --box-shadow: 0 4px 8px 0 hsla(0, 0%, 0%, 0.2),
     0 6px 20px 0 hsla(0, 0%, 0%, 0.19);
   --line: thin solid hsla(0, 0%, 0%, 0.3);
@@ -122,7 +122,7 @@ nav a {
 
 a:is(:link, :visited) {
   color: var(--clr-text);
-  text-decoration: underline;
+  text-decoration: underline solid var(--clr-brand);
 }
 
 a:is(:hover, :focus, :active) {
