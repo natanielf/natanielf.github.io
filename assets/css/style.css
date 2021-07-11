@@ -44,7 +44,7 @@ html {
   /* Firefox scrollbar styling */
   scrollbar-width: thin;
   scrollbar-color: var(--clr-brand) var(--clr-bkgd);
-  scroll-padding-top: 2rem;
+  scroll-padding-top: 5em;
 }
 
 body {
@@ -68,6 +68,10 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+section:target > h1 {
+  text-decoration: underline solid var(--clr-brand);
+}
+
 .parent {
   width: 100%;
   display: grid;
@@ -87,7 +91,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
   font-weight: normal;
-  text-decoration: underline solid var(--clr-brand);
+  text-decoration: none;
 }
 
 h2,
