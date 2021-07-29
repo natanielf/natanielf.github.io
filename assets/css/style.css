@@ -219,24 +219,11 @@ img {
   opacity: 1;
 }
 
-.iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
-  padding-top: 56.25%;
-  border: thin solid var(--clr-brand);
-}
-
 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
   border: none;
+
 }
 
 .footer {
@@ -256,6 +243,7 @@ div,
 img,
 .view,
 .footer,
+iframe,
 ::-webkit-scrollbar-thumb {
   border-radius: var(--br);
 }
