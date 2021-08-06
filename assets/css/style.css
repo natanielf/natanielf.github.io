@@ -40,7 +40,7 @@
 html {
   line-height: 1.15;
   scroll-behavior: smooth;
-  scroll-padding-top: 5em;
+  scroll-padding-top: 4.5em;
   /* Firefox scrollbar styling */
   scrollbar-width: thin;
   scrollbar-color: var(--clr-brand) var(--clr-bkgd);
@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.content {
+main {
   max-width: 60em;
   margin: 0 auto;
   margin-bottom: 3rem;
@@ -100,7 +100,7 @@ h1 {
 }
 
 nav {
-  padding: 0.75rem;
+  padding: 0.7rem;
   background-color: var(--clr-bkgd);
   border: thin solid var(--clr-brand);
   position: -webkit-sticky;
@@ -111,14 +111,14 @@ nav {
   transition: var(--box-shadow-transition);
 }
 
-:is(nav, .footer):is(:hover, :focus-within) {
+:is(nav, footer):is(:hover, :focus-within) {
   -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
 nav > a {
   display: inline-block;
-  padding: 0.75rem;
+  padding: 0.7rem;
 }
 
 a:is(:link, :visited) {
@@ -226,7 +226,7 @@ iframe {
   border: none;
 }
 
-.footer {
+footer {
   width: 100%;
   height: auto;
   display: grid;
@@ -237,7 +237,7 @@ iframe {
   transition: var(--box-shadow-transition);
 }
 
-:is(nav, a, img, .view, .mask, .footer, iframe) {
+:is(nav, a, img, .view, .mask, footer, iframe) {
   border-radius: var(--br);
 }
 
