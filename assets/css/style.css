@@ -137,6 +137,30 @@ a:is(:hover, :focus, :active) {
   text-decoration: none;
 }
 
+.welcome-card {
+  width: 100%;
+  height: auto;
+  margin-block: 1rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.welcome-image {
+  display: grid;
+  place-items: center;
+}
+
+.welcome-card > .welcome-image > img {
+  border-radius: 50%;
+  box-shadow: 0 0 1.5rem 0 hsla(357, 84%, 52%, 0.75);
+}
+
+:is(.welcome-image, .welcome-text, .about-me) {
+  margin-inline: 1rem;
+}
+
 img {
   width: 100%;
   height: auto;
