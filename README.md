@@ -2,13 +2,12 @@
 
 ### Check it out here: [natanielfarzan.com](https://natanielfarzan.com/)
 
-This project started two years ago while I was a freshman in my Computer Information System class. Ever since, I've updated and improved it. I've learned a lot about web design, programming, and [Git version control](https://git-scm.com/) from it and for that I'm thankful.
+This project started three years ago while I was a freshman in my Computer Information System class. Ever since, I've updated and improved it. I've learned a lot about web design and [Git version control](https://git-scm.com/) from it and for that I'm thankful.
 
 ### Inspiration and Attributions
 
 - Ms. Neumann (My CIS and AP CSP teacher)
-- [Adobe Brackets](http://brackets.io/) for making an awesome text editor! Note: Brackets is nearing end of life but it is still a great product.
-- [Space Grotesk Font](https://floriankarsten.github.io/space-grotesk/); also available on [Google Fonts](https://fonts.google.com/specimen/Space+Grotesk)
+- [Space Grotesk](https://floriankarsten.github.io/space-grotesk/) font (also available on [Google Fonts](https://fonts.google.com/specimen/Space+Grotesk))
 - [minal.ml](https://minar.ml/) and his source code available [here](https://github.com/m-i-n-a-r/sparky-portfolio)
 - [normalize.css](https://github.com/necolas/normalize.css) for a few tips on CSS resets
 - [codrops](https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/) for an image description animation in 100% CSS
@@ -18,6 +17,7 @@ This project started two years ago while I was a freshman in my Computer Informa
 ### Features
 
 - Responsive web design
+- Uses modern CSS
 - Theme automatically adjusts to the user's preference (light/dark)
 - Interactive animated background
 
