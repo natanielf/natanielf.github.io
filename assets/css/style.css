@@ -11,9 +11,9 @@
   --clr-main-bkgd: hsla(0, 0%, 98%, 0.4);
   --box-shadow: 0 0 20px 0 hsla(0, 0%, 0%, 0.3);
   --line: thin solid hsla(0, 0%, 0%, 0.3);
-  --clr-bkgd-dark: hsl(0, 0%, 2%);
+  --clr-bkgd-dark: hsl(0, 0%, 8%);
   --clr-text-dark: hsl(0, 0%, 95%);
-  --clr-main-bkgd-dark: hsla(0, 0%, 4%, 0.4);
+  --clr-main-bkgd-dark: hsla(0, 0%, 15%, 0.3);
   --box-shadow-dark: none;
   --line-dark: thin solid hsla(0, 0%, 100%, 0.3);
 }
@@ -63,9 +63,7 @@ main {
   margin-block-end: 4rem;
   padding: 1.5rem;
   background-color: var(--clr-main-bkgd);
-  border: medium var(--brand-border);
   border-radius: calc(var(--br) * 2);
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
@@ -117,7 +115,6 @@ nav {
 }
 
 :is(nav, footer):is(:hover, :focus-within) {
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
@@ -154,7 +151,7 @@ a:is(:hover, :focus, :active) {
 }
 
 .welcome-image {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .welcome-card > .welcome-image > img {
@@ -239,7 +236,6 @@ img {
 
 .view:hover > .mask {
   opacity: 1;
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
