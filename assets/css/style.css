@@ -58,7 +58,6 @@ body {
 
 main {
   max-width: 60em;
-  box-sizing: border-box;
   margin-inline: auto;
   margin-block-end: 4rem;
   padding: 1.5rem;
