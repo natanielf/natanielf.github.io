@@ -144,11 +144,10 @@ a:is(:hover, :focus, :active) {
 
 .card {
   background-color: var(--clr-main-bkgd);
+  padding: 1rem;
 }
 
 .welcome-card {
-  width: 100%;
-  height: auto;
   margin-block: 3rem;
   display: grid;
   place-items: center;
