@@ -282,11 +282,13 @@ footer {
   height: 12px;
 }
 
-:is(::selection, ::-webkit-scrollbar-thumb:hover) {
+::selection,
+::-webkit-scrollbar-thumb:hover {
   background-color: var(--clr-brand);
 }
 
-:is(::-webkit-scrollbar-thumb, ::selection:window-inactive) {
+::selection:window-inactive,
+::-webkit-scrollbar-thumb {
   background: var(--clr-brand-transparent);
 }
 
