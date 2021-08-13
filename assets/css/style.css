@@ -11,9 +11,9 @@
   --clr-main-bkgd: hsla(0, 0%, 98%, 0.4);
   --box-shadow: 0 0 20px 0 hsla(0, 0%, 0%, 0.3);
   --line: thin solid hsla(0, 0%, 0%, 0.3);
-  --clr-bkgd-dark: hsl(0, 0%, 2%);
+  --clr-bkgd-dark: hsl(0, 0%, 8%);
   --clr-text-dark: hsl(0, 0%, 95%);
-  --clr-main-bkgd-dark: hsla(0, 0%, 4%, 0.4);
+  --clr-main-bkgd-dark: hsla(0, 0%, 15%, 0.3);
   --box-shadow-dark: none;
   --line-dark: thin solid hsla(0, 0%, 100%, 0.3);
 }
@@ -58,20 +58,18 @@ body {
 
 main {
   max-width: 60em;
-  box-sizing: border-box;
   margin-inline: auto;
   margin-block-end: 4rem;
   padding: 1.5rem;
   background-color: var(--clr-main-bkgd);
-  border: medium var(--brand-border);
   border-radius: calc(var(--br) * 2);
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
 section:target > h1 {
+  
   text-decoration: underline solid var(--clr-brand);
 }
 
@@ -84,8 +82,8 @@ section:target > h1 {
 }
 
 hr {
-  height: 0.125em;
   width: 100%;
+  height: 0.125em;
   margin-block: 3em;
   background-color: var(--clr-brand);
   border: none;
@@ -94,6 +92,7 @@ hr {
 h1 {
   font-size: 2em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 :is(h2, h3, p) {
@@ -105,7 +104,7 @@ section > h2 {
 }
 
 nav {
-  padding: 0.7rem;
+  padding: 0.5rem;
   background-color: var(--clr-bkgd);
   border: thin var(--brand-border);
   position: -webkit-sticky;
@@ -117,13 +116,13 @@ nav {
 }
 
 :is(nav, footer):is(:hover, :focus-within) {
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
 nav > a {
   display: inline-block;
-  padding: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.65rem;
 }
 
 a:is(:link, :visited) {
@@ -142,11 +141,13 @@ a:is(:hover, :focus, :active) {
   text-decoration: none;
 }
 
-.welcome-card {
-  width: 100%;
-  height: auto;
-  margin-block: 3rem;
+.card {
   background-color: var(--clr-main-bkgd);
+  padding: 1rem;
+}
+
+.welcome-card {
+  margin-block: 3rem;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -154,7 +155,7 @@ a:is(:hover, :focus, :active) {
 }
 
 .welcome-image {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .welcome-card > .welcome-image > img {
@@ -239,7 +240,6 @@ img {
 
 .view:hover > .mask {
   opacity: 1;
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
@@ -257,8 +257,6 @@ iframe {
 }
 
 footer {
-  width: 100%;
-  height: auto;
   display: grid;
   place-items: center;
   background-color: var(--clr-bkgd);
@@ -267,7 +265,7 @@ footer {
   transition: var(--box-shadow-transition);
 }
 
-:is(nav, a, img:not(.logo), div, footer, iframe) {
+:is(nav, a, img:not(.logo), div, footer, iframe, .card) {
   border-radius: var(--br);
 }
 
@@ -284,20 +282,12 @@ footer {
   height: 12px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--clr-brand-transparent);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--clr-brand);
-}
-
-::selection {
+:is(::selection, ::-webkit-scrollbar-thumb:hover) {
   background-color: var(--clr-brand);
 }
 
-::selection:window-inactive {
-  background-color: var(--clr-brand-transparent);
+:is(::-webkit-scrollbar-thumb, ::selection:window-inactive) {
+  background: var(--clr-brand-transparent);
 }
 
 canvas {
