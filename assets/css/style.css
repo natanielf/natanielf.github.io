@@ -83,13 +83,13 @@ section:target > h1 {
 hr {
   width: 100%;
   height: 0.125em;
-  margin-block: 3em;
+  margin-block: 2.5em;
   background-color: var(--clr-brand);
   border: none;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -98,8 +98,26 @@ h1 {
   font-weight: lighter;
 }
 
-section > h2 {
+#portfolio > h2 {
+  font-size: 1.7em;
   margin-block: 2rem;
+}
+
+#portfolio > h3::before {
+  content: "> ";
+}
+
+#portfolio > h3::after {
+  content: " <";
+}
+
+#portfolio > h3::before,
+#portfolio > h3::after {
+  opacity: 0.5;
+}
+
+#portfolio > h3 {
+  font-size: 1.3em;
 }
 
 nav {
