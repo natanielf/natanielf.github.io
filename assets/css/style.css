@@ -76,6 +76,7 @@ section:target > h1 {
   width: 100%;
   margin: 3rem 0;
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
   gap: 5em 4em;
 }
