@@ -16,6 +16,8 @@
   --clr-main-bkgd-dark: hsla(0, 0%, 15%, 0.3);
   --box-shadow-dark: none;
   --line-dark: thin solid hsla(0, 0%, 100%, 0.3);
+  --youtube-logo-url: url(../logos/youtube_dark_64px.png);
+  --github-logo-url: url(../logos/github_dark_64px.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +27,8 @@
     --clr-main-bkgd: var(--clr-main-bkgd-dark);
     --box-shadow: var(--box-shadow-dark);
     --line: var(--line-dark);
+    --youtube-logo-url: url(../logos/youtube_light_64px.png);
+    --github-logo-url: url(../logos/github_light_64px.png);
   }
 }
 
@@ -293,6 +297,19 @@ footer {
   grid-template-columns: repeat(2, 2.5rem);
   place-items: center;
   gap: 2rem;
+}
+
+.logos > a {
+  width: 2.5rem;
+  height: auto;
+}
+
+.logos > .youtube {
+  content: var(--youtube-logo-url);
+}
+
+.logos > .github {
+  content: var(--github-logo-url);
 }
 
 ::-webkit-scrollbar {
