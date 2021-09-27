@@ -13,6 +13,7 @@ This project started three years ago while I was a freshman in my Computer Infor
 - [codrops](https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/) for an image description animation in 100% CSS
 - [particles.js](https://github.com/VincentGarreau/particles.js) for a super cool animated background
 - [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for helpful tips on website best practices
+- [Feather Icons](https://feathericons.com/) for beautiful svg icons
 
 ### Features
 
