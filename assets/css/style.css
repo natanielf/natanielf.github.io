@@ -45,7 +45,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 4.5em;
   /* Firefox scrollbar styling */
-  scrollbar-width: thin;
   scrollbar-color: var(--clr-brand) var(--clr-bkgd);
 }
 
@@ -303,8 +302,8 @@ footer {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 ::selection,
@@ -314,7 +313,8 @@ footer {
 
 ::selection:window-inactive,
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-brand-transparent);
+  background-color: var(--clr-brand-transparent);
+  border-radius: 8px;
 }
 
 canvas {
