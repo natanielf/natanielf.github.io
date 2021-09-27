@@ -2,6 +2,7 @@
 
 :root {
   --clr-brand: hsl(357, 84%, 52%);
+  --clr-brand-dark: hsl(357, 84%, 42%);
   --clr-brand-transparent: hsla(357, 84%, 52%, 0.75);
   --brand-border: solid var(--clr-brand);
   --br: 0.625rem;
@@ -16,19 +17,16 @@
   --clr-main-bkgd-dark: hsla(0, 0%, 15%, 0.3);
   --box-shadow-dark: none;
   --line-dark: thin solid hsla(0, 0%, 100%, 0.3);
-  --youtube-logo-url: url(../logos/youtube_dark_64px.png);
-  --github-logo-url: url(../logos/github_dark_64px.png);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --clr-brand: var(--clr-brand-dark);
     --clr-bkgd: var(--clr-bkgd-dark);
     --clr-text: var(--clr-text-dark);
     --clr-main-bkgd: var(--clr-main-bkgd-dark);
     --box-shadow: var(--box-shadow-dark);
     --line: var(--line-dark);
-    --youtube-logo-url: url(../logos/youtube_light_64px.png);
-    --github-logo-url: url(../logos/github_light_64px.png);
   }
 }
 
@@ -72,7 +70,7 @@ main {
   backdrop-filter: blur(2px);
 }
 
-section:target > h1 {
+:target > h1 {
   text-decoration: underline solid var(--clr-brand);
 }
 
@@ -287,34 +285,26 @@ footer {
   transition: var(--box-shadow-transition);
 }
 
-:is(nav, a, img:not(.logo), div, footer, iframe, .card) {
+:is(nav, a, img, div, footer, iframe, .card) {
   border-radius: var(--br);
 }
 
-.logos {
+.icons {
   margin-block: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, 2.5rem);
+  grid-template-columns: repeat(4, 3rem);
   place-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
-.logos > a {
-  width: 2.5rem;
-  height: auto;
-}
-
-.logos > .youtube {
-  content: var(--youtube-logo-url);
-}
-
-.logos > .github {
-  content: var(--github-logo-url);
+.icons > a > svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
 }
 
 ::selection,
