@@ -2,7 +2,7 @@
 
 :root {
   --clr-brand: hsl(357, 84%, 52%);
-  --clr-brand-dark: hsl(357, 84%, 42%);
+  --clr-brand-dark: hsl(357, 64%, 42%);
   --clr-brand-transparent: hsla(357, 84%, 52%, 0.75);
   --brand-border: solid var(--clr-brand);
   --br: 0.625rem;
