@@ -79,7 +79,7 @@ main {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-  gap: 5em 4em;
+  gap: 4em;
 }
 
 hr {
@@ -109,16 +109,20 @@ h1 {
 
 .arrow {
   width: clamp(4rem, 10vw, 20rem);
+  margin-bottom: 2rem;
   color: var(--clr-text);
   font-size: xx-large;
   text-decoration: none;
   padding: 1em;
   background-color: var(--clr-brand-transparent);
   border-radius: var(--br);
+  transition: all 250ms ease-out;
 }
 
 .arrow:is(:hover, :focus) {
   color: var(--clr-text);
+  background-color: var(--clr-brand);
+  transform: translateY(-0.25rem);
 }
 
 #portfolio > h2 {
@@ -155,7 +159,7 @@ nav {
   transition: var(--box-shadow-transition);
 }
 
-:is(nav, footer):is(:hover, :focus-within) {
+nav:is(:hover, :focus-within) {
   box-shadow: var(--box-shadow);
 }
 
@@ -183,32 +187,33 @@ a:is(:hover, :focus, :active) {
 
 .card {
   background-color: var(--clr-main-bkgd);
+  box-shadow: var(--box-shadow);
   padding: 1rem;
 }
 
-.welcome-card {
+.about {
   margin-block: 2rem;
   display: grid;
   place-items: center;
-  width: clamp(10rem, 80%, 60rem);
+  width: min(80%, 60rem);
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
 }
 
-.welcome-image {
-  padding: 1.5rem;
+.profile {
+  padding: 1rem;
 }
 
-.welcome-card > .welcome-image > img {
+.about > .profile > img {
   border-radius: 50%;
-  box-shadow: 0 0 1.5rem 0 hsla(357, 84%, 52%, 0.75);
+  box-shadow: 0 0 1.5rem 0 hsla(357, 84%, 52%, 0.5);
 }
 
-.welcome-text {
+.about > .description {
   text-align: left;
 }
 
-:is(.welcome-image, .welcome-text, .about-me) {
+:is(.profile, .description) {
   margin-inline: 0.75rem;
 }
 
@@ -225,7 +230,7 @@ iframe {
 }
 
 footer {
-  width: 60rem;
+  width: min(80%, 60rem);
   margin-inline: auto;
   margin-bottom: 3rem;
   display: grid;
