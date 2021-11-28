@@ -65,8 +65,6 @@ main {
   background-color: var(--clr-main-bkgd);
   border-radius: calc(var(--br) * 2);
   box-shadow: var(--box-shadow);
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
 }
 
 :target > h1 {
@@ -241,6 +239,11 @@ footer {
 
 :is(nav, a, img, div, footer, iframe, .card) {
   border-radius: var(--br);
+}
+
+:is(main, .card) {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .icons {
