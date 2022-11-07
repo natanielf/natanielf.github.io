@@ -5,7 +5,7 @@
   --clr-brand-dark: hsl(357, 64%, 42%);
   --clr-brand-transparent: hsla(357, 84%, 52%, 0.75);
   --brand-border: solid var(--clr-brand);
-  --br: 0.625rem;
+  --br: 1rem;
   --box-shadow-transition: box-shadow 200ms ease-out;
   --clr-bkgd: hsl(0, 0%, 98%);
   --clr-text: hsl(0, 0%, 0%);
@@ -103,24 +103,6 @@ h1 {
   min-height: 100vh;
   display: grid;
   place-items: center;
-}
-
-.arrow {
-  width: clamp(4rem, 10vw, 20rem);
-  margin-bottom: 2rem;
-  color: var(--clr-text);
-  font-size: xx-large;
-  text-decoration: none;
-  padding: 1em;
-  background-color: var(--clr-brand-transparent);
-  border-radius: var(--br);
-  transition: all 250ms ease-out;
-}
-
-.arrow:is(:hover, :focus) {
-  color: var(--clr-text);
-  background-color: var(--clr-brand);
-  transform: translateY(-0.25rem);
 }
 
 #portfolio > h2 {
@@ -227,17 +209,7 @@ iframe {
   border: none;
 }
 
-footer {
-  width: min(80%, 60rem);
-  margin-inline: auto;
-  margin-bottom: 3rem;
-  display: grid;
-  place-items: center;
-  -webkit-transition: var(--box-shadow-transition);
-  transition: var(--box-shadow-transition);
-}
-
-:is(nav, a, img, div, footer, iframe, .card) {
+:is(nav, a, img, div, iframe, .card) {
   border-radius: var(--br);
 }
 

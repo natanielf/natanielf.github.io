@@ -23,7 +23,7 @@ particlesJS(
           nb_sides: 5,
         },
         image: {
-          src: "/images/nf.png",
+          src: "",
           width: 100,
           height: 100,
         },
@@ -57,8 +57,8 @@ particlesJS(
       },
       move: {
         enable: true,
-        speed: 6,
-        direction: "none",
+        speed: 4,
+        direction: "top",
         random: false,
         straight: false,
         out_mode: "out",
