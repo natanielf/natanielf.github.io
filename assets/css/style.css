@@ -186,7 +186,7 @@ a:is(:hover, :focus, :active) {
 
 .about > .profile > img {
   border-radius: 50%;
-  box-shadow: 0 0 1.5rem 0 hsla(357, 84%, 52%, 0.5);
+  box-shadow: 0 0 1.5rem 0 hsla(357, 84%, 52%, 0.3);
 }
 
 .about > .description {
@@ -221,7 +221,7 @@ iframe {
 .icons {
   margin-block: 1rem;
   display: grid;
-  grid-template-columns: repeat(4, 3rem);
+  grid-template-columns: repeat(auto-fit, 3rem);
   place-items: center;
   gap: 1rem;
 }
@@ -232,8 +232,8 @@ iframe {
 }
 
 ::-webkit-scrollbar {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
 }
 
 ::selection,
