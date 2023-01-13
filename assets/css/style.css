@@ -110,19 +110,6 @@ h1 {
   margin-block: 2rem;
 }
 
-#portfolio > h3::before {
-  content: "> ";
-}
-
-#portfolio > h3::after {
-  content: " <";
-}
-
-#portfolio > h3::before,
-#portfolio > h3::after {
-  opacity: 0.5;
-}
-
 #portfolio > h3 {
   font-size: 1.3em;
 }
