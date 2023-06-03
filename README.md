@@ -1,11 +1,8 @@
-# Personal Portfolio Website
+# Personal Website
 
-This project started freshman year of high school, shortly after I created my very first website. Ever since, I've updated and improved it.
+A space to share personal projects and interests.
 
-### Credits
+## Credits
 
-- [Space Grotesk](https://floriankarsten.github.io/space-grotesk/) font (also available on [Google Fonts](https://fonts.google.com/specimen/Space+Grotesk))
-- [minal.ml](https://minar.ml/) and his source code available [here](https://github.com/m-i-n-a-r/sparky-portfolio)
-- [normalize.css](https://github.com/necolas/normalize.css) for a few tips on CSS resets
-- [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for helpful tips on website best practices
-- [Feather Icons](https://feathericons.com/) for beautiful svg icons
+- [MDN Web Docs](https://developer.mozilla.org/) - great web documentation
+- [Feather Icons](https://feathericons.com/) - open source SVG icons
