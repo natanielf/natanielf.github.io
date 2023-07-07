@@ -4,13 +4,13 @@
   --clr-brand: hsl(357, 84%, 52%);
   --clr-brand-transparent: hsla(357, 84%, 52%, 0.6);
   --br: 1rem;
-  --clr-bkgd: hsl(0, 0%, 95%);
-  --clr-text: hsl(0, 0%, 10%);
+  --clr-bkgd: hsl(0, 0%, 92%);
+  --clr-text: hsl(0, 0%, 5%);
   --clr-text-muted: hsl(0, 0%, 30%);
-  --clr-main-bkgd: hsl(0, 0%, 90%);
-  --box-shadow: 0 0 1rem 0 hsla(0, 0%, 0%, 0.25);
+  --clr-main-bkgd: hsl(0, 0%, 94%);
+  --box-shadow: 0 0 1rem 0 hsla(0, 0%, 0%, 0.2);
   --clr-brand-dark: hsl(357, 54%, 52%);
-  --clr-bkgd-dark: hsl(0, 0%, 6%);
+  --clr-bkgd-dark: hsl(0, 0%, 5%);
   --clr-text-dark: hsl(0, 0%, 95%);
   --clr-text-muted-dark: hsl(0, 0%, 70%);
   --clr-main-bkgd-dark: hsl(0, 0%, 10%);
@@ -129,7 +129,6 @@ iframe {
 .json {
   font: 1.2rem /2 monospace;
   padding-inline: 1rem;
-  border: 1px solid var(--clr-brand-transparent);
 }
 
 .key::after {
@@ -154,9 +153,9 @@ iframe {
 }
 
 .card {
-  margin-block-start: 2rem;
+  margin-block: 2rem;
   padding-inline: 1rem;
-  border: 1px solid grey;
+  border: 1px solid hsla(0, 0%, 50%, 0.5);
   border-radius: var(--br);
 }
 
