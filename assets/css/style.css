@@ -1,45 +1,38 @@
 @charset "UTF-8";
 
 :root {
-  --clr-brand: hsl(357, 84%, 52%);
-  --clr-brand-transparent: hsla(357, 84%, 52%, 0.6);
-  --br: 1rem;
-  --clr-bkgd: hsl(0, 0%, 92%);
-  --clr-text: hsl(0, 0%, 5%);
-  --clr-text-muted: hsl(0, 0%, 30%);
-  --clr-main-bkgd: hsl(0, 0%, 94%);
-  --box-shadow: 0 0 1rem 0 hsla(0, 0%, 0%, 0.2);
-  --clr-brand-dark: hsl(357, 54%, 52%);
-  --clr-bkgd-dark: hsl(0, 0%, 5%);
-  --clr-text-dark: hsl(0, 0%, 95%);
-  --clr-text-muted-dark: hsl(0, 0%, 70%);
-  --clr-main-bkgd-dark: hsl(0, 0%, 10%);
-  --box-shadow-dark: none;
+  --clr-brand: hsl(357 84% 52%);
+  --clr-body-bkgd: hsl(0 0% 92%);
+  --clr-main-bkgd: hsl(0 0% 94%);
+  --clr-text: hsl(0 0% 5%);
+  --clr-text-muted: hsl(0 0% 30%);
+  --box-shadow: 0 0 1rem 0 hsla(0 0% 0% 0.2);
+  --clr-brand-transparent: hsla(357 84% 52% 0.6);
+  --border-radius: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --clr-brand: var(--clr-brand-dark);
-    --clr-bkgd: var(--clr-bkgd-dark);
-    --clr-text: var(--clr-text-dark);
-    --clr-text-muted: var(--clr-text-muted-dark);
-    --clr-main-bkgd: var(--clr-main-bkgd-dark);
-    --box-shadow: var(--box-shadow-dark);
+    --clr-brand: hsl(357 54% 52%);
+    --clr-body-bkgd: hsl(0 0% 5%);
+    --clr-main-bkgd: hsl(0 0% 10%);
+    --clr-text: hsl(0 0% 95%);
+    --clr-text-muted: hsl(0 0% 70%);
+    --box-shadow: none;
   }
 }
 
 html {
   scroll-behavior: smooth;
-  scrollbar-color: var(--clr-brand) var(--clr-bkgd);
+  scrollbar-color: var(--clr-brand) var(--clr-body-bkgd);
 }
 
 body {
   margin: 0;
   padding: 1rem;
-  background-color: var(--clr-bkgd);
+  background-color: var(--clr-body-bkgd);
   color: var(--clr-text);
   font-family: sans-serif, Arial;
-  font-weight: normal;
 }
 
 main {
@@ -48,8 +41,43 @@ main {
   margin-inline: auto;
   padding: clamp(1rem, 3vw, 3rem);
   background-color: var(--clr-main-bkgd);
-  border-radius: calc(var(--br) * 2);
+  border-radius: calc(var(--border-radius) * 2);
   box-shadow: var(--box-shadow);
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.2rem);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+a {
+  color: var(--clr-brand);
+  text-decoration: solid underline var(--clr-brand);
+}
+
+a:is(:hover, :focus, :active) {
+  color: var(--clr-brand-transparent);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-block: 1rem;
+  border: none;
+}
+
+:is(img, iframe) {
+  border-radius: var(--border-radius);
 }
 
 .header {
@@ -70,48 +98,12 @@ main {
   text-align: center;
 }
 
-.parent {
-  width: 100%;
+.portfolio > h2 {
   margin-block-start: 2rem;
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-  gap: 2em;
 }
 
-h1 {
-  font-size: clamp(1.8rem, 4vw, 2.2rem);
-  text-transform: uppercase;
-}
-
-h2 {
-  font-weight: 300;
-}
-
-a {
-  color: var(--clr-brand);
-  text-decoration: underline;
-}
-
-a:is(:hover, :focus, :active) {
-  color: var(--clr-brand-transparent);
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
+.portfolio > img {
   margin-block: 1rem;
-  border: none;
-}
-
-:is(img, iframe, .json) {
-  border-radius: var(--br);
 }
 
 .icons {
@@ -126,37 +118,12 @@ iframe {
   text-decoration: none;
 }
 
-.json {
-  font: 1.2rem /2 monospace;
-  padding-inline: 1rem;
-}
-
-.key::after {
-  content: ":";
-}
-
-.val {
-}
-
-[data-type="string"] {
-  color: hsl(300, 50%, 70%);
-}
-
-[data-type="string"]::before,
-[data-type="string"]::after {
-  content: '"';
-  color: var(--clr-text);
-}
-
-.key[data-type="string"]::after {
-  content: '":';
-}
-
 .card {
   margin-block: 2rem;
+  padding-block-end: 0.5rem;
   padding-inline: 1rem;
   border: 1px solid hsla(0, 0%, 50%, 0.5);
-  border-radius: var(--br);
+  border-radius: var(--border-radius);
 }
 
 .card > h4 {
@@ -177,5 +144,5 @@ iframe {
 ::selection:window-inactive,
 ::-webkit-scrollbar-thumb {
   background-color: var(--clr-brand-transparent);
-  border-radius: var(--br);
+  border-radius: var(--border-radius);
 }
