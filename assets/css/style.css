@@ -94,18 +94,6 @@ iframe {
   border-radius: 50%;
 }
 
-.portfolio {
-  text-align: center;
-}
-
-.portfolio > h2 {
-  margin-block-start: 2rem;
-}
-
-.portfolio > img {
-  margin-block: 1rem;
-}
-
 .icons {
   margin-block-start: 4rem;
   display: grid;
@@ -126,9 +114,29 @@ iframe {
   border-radius: var(--border-radius);
 }
 
-.card > h4 {
+:is(.blog, .card) > h4 {
   color: var(--clr-text-muted);
-  font-weight: 400;
+  font-weight: normal;
+}
+
+.blog > h4 {
+  font-style: italic;
+}
+
+.post > p {
+  text-indent: 1rem;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio > h2 {
+  margin-block-start: 2rem;
+}
+
+.portfolio > img {
+  margin-block: 1rem;
 }
 
 ::-webkit-scrollbar {
