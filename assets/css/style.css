@@ -36,8 +36,8 @@ body {
 }
 
 main {
-  max-width: 50em;
-  margin-block: 1rem;
+  max-width: 50rem;
+  margin-block: 2rem;
   margin-inline: auto;
   padding: clamp(1rem, 3vw, 3rem);
   background-color: var(--clr-main-bkgd);
@@ -108,7 +108,7 @@ iframe {
 
 .card {
   margin-block: 2rem;
-  padding-block-end: 0.5rem;
+  padding-block: 0.1rem;
   padding-inline: 1rem;
   border: 1px solid hsla(0, 0%, 50%, 0.5);
   border-radius: var(--border-radius);
