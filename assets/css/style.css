@@ -60,7 +60,6 @@ a {
 }
 
 a:is(:hover, :focus, :active) {
-  color: var(--clr-brand-transparent);
   text-decoration: none;
 }
 
