@@ -122,6 +122,10 @@ iframe {
   font-style: italic;
 }
 
+.post {
+  overflow-wrap: anywhere;
+}
+
 .post > p {
   text-indent: 1rem;
 }
